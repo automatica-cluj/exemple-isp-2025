@@ -1,6 +1,6 @@
 # ISP Course - Java OOP Examples
 
-This repository contains example code and exercises for the **ISP (Informatics System Programming) course**, focusing on **Object-Oriented Programming (OOP) in Java**. This repository is a collection of java projects, each project in it's own folder. 
+This repository contains example code and exercises for the **ISP Seria B, Cluj-Napoca & Satu-Mare**, focusing on **Object-Oriented Programming (OOP) in Java**. This repository is a collection of java projects, each project in it's own folder. 
 
 ## Contents (To be updated as course evolve)
 - **Basic OOP Concepts** (Classes, Objects, Encapsulation, Inheritance, Polymorphism)
