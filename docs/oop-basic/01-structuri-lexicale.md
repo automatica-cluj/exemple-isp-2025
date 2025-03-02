@@ -352,15 +352,9 @@ public class CalculatorStudent {
 
 2. Scrieți un program simplu care utilizează toate tipurile de literali prezentate.
 
-3. Creați identificatori valizi pentru următoarele situații:
-   - O clasă care reprezintă un cont bancar
-   - O metodă care calculează dobânda
-   - O variabilă care stochează soldul contului
-   - O constantă pentru rata dobânzii
+3. Scrieți un program care utilizează fiecare tip de operator prezentat.
 
-4. Scrieți un program care utilizează fiecare tip de operator prezentat.
-
-5. Identificați și corectați erorile lexicale din următorul cod:
+4. Identificați și corectați erorile lexicale din următorul cod:
    ```java
    public class Test {
        public void calcul() {
