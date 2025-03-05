@@ -57,12 +57,12 @@ Indiferent de metodologia specifică adoptată, SDLC include în general următo
 
 | Etapă SDLC | Descriere | Unelte | Categorii de Unelte |
 |------------|-----------|--------|---------------------|
-| **1. Planificare și Analiză Cerințe** | Colectarea și analizarea cerințelor, definirea scopului | - Jira<br>- Trello<br>- Confluence<br>- Microsoft Project<br>- Lucidchart<br>- Miro<br>- Microsoft Teams<br>- Slack | - Managementul proiectelor<br>- Documentație<br>- Diagrame și modelare<br>- Comunicare |
+| **1. Planificare și Analiză Cerințe** | Colectarea și analizarea cerințelor, definirea scopului | - Jira<br>- Trello<br>- Confluence<br>- Microsoft Project<br> | - Managementul proiectelor<br>- Documentație<br>- Diagrame și modelare<br>- Comunicare |
 | **2. Design și Arhitectură** | Crearea specificațiilor tehnice, arhitectură software | - Draw.io<br>- Lucidchart<br>- Enterprise Architect<br>- Visual Paradigm<br>- Figma<br>- Adobe XD<br>- InVision<br>- Sketch | - Modelare UML<br>- Wireframing<br>- Prototipare<br>- Design UI/UX |
 | **3. Implementare (Dezvoltare)** | Scrierea și implementarea codului | - IDE-uri (VS Code, IntelliJ, Eclipse)<br>- Git/GitHub/GitLab/Bitbucket<br>- Docker<br>- Kubernetes<br>- NPM/Maven/Gradle<br>- Jenkins<br>- Travis CI<br>- CircleCI | - Medii de dezvoltare<br>- Control versiune<br>- Containerizare<br>- Gestionare dependențe<br>- CI/CD |
 | **4. Testare** | Verificarea calității și funcționalității software-ului | - Selenium<br>- JUnit/TestNG<br>- Postman<br>- SoapUI<br>- JMeter<br>- LoadRunner<br>- Cucumber<br>- TestRail<br>- qTest | - Testare automată<br>- Testare API<br>- Testare de performanță<br>- BDD/TDD<br>- Managementul testelor |
-| **5. Deployment** | Lansarea software-ului în mediul de producție | - Jenkins<br>- GitLab CI/CD<br>- GitHub Actions<br>- Bamboo<br>- AWS CodeDeploy<br>- Azure DevOps<br>- Terraform<br>- Ansible<br>- Docker<br>- Kubernetes | - CI/CD<br>- Cloud deployment<br>- Infrastructură ca cod<br>- Containerizare<br>- Orchestrare |
-| **6. Mentenanță și Monitorizare** | Suport continuu, rezolvare bug-uri, îmbunătățiri | - Grafana<br>- Prometheus<br>- New Relic<br>- Datadog<br>- Splunk<br>- ELK Stack (Elasticsearch, Logstash, Kibana)<br>- Nagios<br>- Sentry<br>- PagerDuty | - Monitorizare<br>- Logging<br>- Alertare<br>- APM (Application Performance Monitoring)<br>- Analiza log-urilor |
+| **5. Deployment** | Lansarea software-ului în mediul de producție | - Jenkins<br>- GitLab CI/CD<br>- GitHub Actions<br>- AWS CodeDeploy<br>- Azure DevOps<br>- Terraform<br>- Ansible<br>- Docker<br>- Kubernetes | - CI/CD<br>- Cloud deployment<br>- Infrastructură ca cod<br>- Containerizare<br>- Orchestrare |
+| **6. Mentenanță și Monitorizare** | Suport continuu, rezolvare bug-uri, îmbunătățiri | - Grafana<br>- Prometheus<br>- New Relic<br>- Datadog<br>- Sentry<br>- PagerDuty | - Monitorizare<br>- Logging<br>- Alertare<br>- APM (Application Performance Monitoring)<br>- Analiza log-urilor |
 
 ## Unelte Transversale (Folosite în Multiple Etape)
 
