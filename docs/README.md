@@ -1,6 +1,6 @@
-# Ingineria Sistemelor de Programe - Documentatie Suplimentara 
+# Cuprins Documentatie Suplimentara 
 
-Acest cuprins și documentația aferentă vor evolua pe măsura adăugării de materiale noi.
+![jv1.gif](media/jv1.gif)
 
 ## Ecosistemul Java
 - [Ecosistemul Java: Ghid pentru programatori începători](java-ecosystem.md)
