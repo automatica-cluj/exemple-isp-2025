@@ -1,7 +1,6 @@
 package utcluj.aut;
 
 import org.junit.Test;
-import utcluj.aut.Main;
 
 import static org.junit.Assert.assertEquals;
 
