@@ -25,3 +25,7 @@
 ## Librarii si framwork-uri
 
 1. [Libraria Lombok](librarii-si-frameworks/limbraria-lombok.md)
+
+## Validarea cunostintelor 
+
+1. [Exercitii introducere in OOP](exercitii-si-intrebari/exercitii-oop-baza.md)
