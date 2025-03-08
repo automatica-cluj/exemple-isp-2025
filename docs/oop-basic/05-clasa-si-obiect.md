@@ -644,3 +644,7 @@ public class DemoGC {
 ```
 
 Notă: Apelarea `System.gc()` doar sugerează JVM să ruleze GC, dar nu garantează că va rula imediat sau că va colecta toate obiectele nereferenciate.
+
+## Exemple 
+
+Pentru a testa o parte din conceptele de mai sus incarcati in IDE urmatorul proiect Java: [exemple-curs-2-oop](../../exemple-curs-2-oop)
