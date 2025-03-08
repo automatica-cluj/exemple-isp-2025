@@ -14,4 +14,5 @@
 ## Unelte și Metodologii
 - [Introducere în SDLC](sdlc-tools-table.md)
 - [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
+- [Introducere în Maven](tools-basic/introducere-maven.md)
 
