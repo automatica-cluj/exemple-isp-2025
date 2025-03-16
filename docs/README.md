@@ -14,7 +14,8 @@
 ## Programare OOP 
 
 1. [Introducere OOP](oop-basic/05-clasa-si-obiect.md)
-
+2. [Pachete](oop-basic/06-pachete-si-librarii.md)
+3. [Fisiere Jar](oop-basic/07-fisiere-jar.md)
 
 ## Unelte și Metodologii
 
