@@ -16,6 +16,7 @@
 1. [Introducere OOP](oop-basic/05-clasa-si-obiect.md)
 2. [Pachete](oop-basic/06-pachete-si-librarii.md)
 3. [Fisiere Jar](oop-basic/07-fisiere-jar.md)
+4. [Agregarea, compozitia si mostenirea](oop-basic/08-concepte-avansate-oop.md)
 
 ## Unelte și Metodologii
 
@@ -30,3 +31,4 @@
 ## Validarea cunostintelor 
 
 1. [Exercitii introducere in OOP](exercitii-si-intrebari/exercitii-oop-baza.md)
+2. [Exercitii agregare compozitie si mostenire](exercitii-si-intrebari/exercitii-oop-avansat.md)
