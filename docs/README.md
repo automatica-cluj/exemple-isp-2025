@@ -18,6 +18,10 @@
 3. [Fisiere Jar](oop-basic/07-fisiere-jar.md)
 4. [Agregarea, compozitia si mostenirea](oop-basic/08-concepte-avansate-oop.md)
 
+## Concepte avansate OOP
+
+1. [Clase abstracte si interfete](oop-advanced/01-interfete-clase-abstracte.md)
+
 ## Unelte și Metodologii
 
 1. [Introducere în SDLC](sdlc-tools-table.md)
@@ -32,3 +36,4 @@
 
 1. [Exercitii introducere in OOP](exercitii-si-intrebari/exercitii-oop-baza.md)
 2. [Exercitii agregare compozitie si mostenire](exercitii-si-intrebari/exercitii-oop-avansat.md)
+3. [Exercitii interfete si clase abstracte](exercitii-si-intrebari/exercitii-interfete-abstract.md)
