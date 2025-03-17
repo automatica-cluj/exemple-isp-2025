@@ -17,11 +17,10 @@
 2. [Pachete](oop-basic/06-pachete-si-librarii.md)
 3. [Fisiere Jar](oop-basic/07-fisiere-jar.md)
 4. [Agregarea, compozitia si mostenirea](oop-basic/08-concepte-avansate-oop.md)
-5. 
+5. [Clase abstracte si interfete](oop-advanced/01-interfete-clase-abstracte.md)
 
 ## Concepte avansate OOP
 
-1. [Clase abstracte si interfete](oop-advanced/01-interfete-clase-abstracte.md)
 2. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
 3. [Optional si null](oop-advanced/03-optional-si-null.md)
 
