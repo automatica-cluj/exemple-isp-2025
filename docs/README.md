@@ -40,6 +40,7 @@
 2. [Diagrame use-case](uml/02-use-case.md)
 3. [Documentare diagrame use-case](uml/03-use-case-documentatie.md)
 4. [Diagrame de clasa](uml/04-class-diagram.md)
+5. [Exemplu diagrame de clase](uml/05-class-diagram-exemplu.md)
 
 ## Validarea cunostintelor 
 

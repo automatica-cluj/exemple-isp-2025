@@ -4,7 +4,7 @@
 
 Vom crea un model complet pentru un ATM bancar, implementând operațiile de retragere de fonduri și interogare sold. Modelul va evidenția relațiile de agregare, compoziție și implementare de interfețe.
 
-![img_7.png](img_7.png)
+![img_7.png](imgs-02-classdiagram/img_7.png)
 
 ## Relația dintre Diagrama de Clase și Implementarea în Java
 
