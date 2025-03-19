@@ -39,6 +39,7 @@
 1. [Introducere UML](uml/01-introducere-uml.md)
 2. [Diagrame use-case](uml/02-use-case.md)
 3. [Documentare diagrame use-case](uml/03-use-case-documentatie.md)
+4. [Diagrame de clasa](uml/04-class-diagram.md)
 
 ## Validarea cunostintelor 
 
