@@ -91,6 +91,22 @@ Implementarea interfeței arată că o clasă implementează funcționalitatea d
 
 ![img_6.png](imgs-02-classdiagram/img_6.png)
 
+### 6. Dependență
+
+Dependența este o relație indicațională în care o modificare într-o clasă poate afecta o altă clasă. Aceasta este utilizată pentru a arăta că o clasă utilizează sau se bazează pe funcționalitatea furnizată de o altă clasă, de obicei pe termen scurt.
+
+- Reprezentată printr-o linie punctată cu o săgeată orientată spre clasa de care depinde.
+- Dependența este de obicei de scurtă durată și nu implică o relație de proprietate sau de moștenire.
+
+Exemplu: Relația de dependență poate fi folosită atunci când într-o clasă există o metodă care primește un argument de tipul altei clase, returnează un obiect de tipul altei clase sau utilizeaza in interiorul unei moetode un obiect dintr-o alta clasa.
+
+![img8.png](imgs-02-classdiagram/img_8.png)
+
+![img_1.png](imgs-02-classdiagram/img_9.png)
+
+Utilitatea practică a relației de dependență este limitată și se utilizează adesea atunci când este necesar să se evidențieze anumite dependențe esențiale în cod. Uneori, poate fi destul de dificil de intuit modul în care o diagramă ce reprezintă o relație de dependență poate fi transpusa în cod, deoarece această relație nu implică o legătură structurală puternică între clase.
+
+
 ## Recomandări pentru construirea diagramelor de clase
 
 1. **Nivel de detaliu adecvat**: Alegeți nivelul de detaliu potrivit scopului diagramei:
