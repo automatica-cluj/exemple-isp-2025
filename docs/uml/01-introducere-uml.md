@@ -26,7 +26,7 @@ Succesul și adoptarea pe scară largă a UML se datorează mai multor factori:
 - Vizualizare
 - Documentare
 
-pentru sistemele software. Acest limbaj furnizează un set complet de notații grafice care permit crearea unor modele abstracte, cunoscute sub denumirea de modele UML.
+ Acest limbaj furnizează un set complet de notații grafice care permit crearea unor modele abstracte, cunoscute sub denumirea de modele UML.
 
 ## Conceptul de Modelare
 
@@ -42,18 +42,7 @@ Modelele îndeplinesc mai multe funcții esențiale:
     - Flexibilitate
     - Scalabilitate
 
-### Tipuri de Modele
-
-#### Modele Matematice
-Sunt modele abstracte care utilizează limbajul matematic pentru a descrie comportamentul unui sistem. Aceste modele:
-- Sunt folosite extensiv în toate domeniile științei
-- Caută soluții analitice care să permită predicția comportamentului sistemului
-- Se bazează pe un set de parametri și condiții inițiale
-
-#### Modele Software
-Reprezintă programe care simulează un model abstract al unui anumit sistem. Odată cu evoluția tehnologiei informației, simulatoarele au devenit unelte din ce în ce mai utilizate în toate domeniile.
-
-### Beneficiile Modelării Software
+## Alte beneficii
 
 Modelele software oferă multiple avantaje:
 - Reprezintă un mecanism eficient de comunicare între membrii echipelor de dezvoltare
