@@ -1,6 +1,8 @@
-# Cuprins Documentatie Suplimentara 
+# Ingineria Sistemelor de Programe 
 
 ![jv1.gif](media/jv1.gif)
+
+---
 
 ## Introducere în Programare în Java
 1. [Ecosistemul Java: Ghid pentru programatori începători](java-ecosystem.md)
@@ -22,15 +24,13 @@
 2. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
 3. [Optional si null](oop-advanced/03-optional-si-null.md)
 
-## Unelte și Metodologii
+## Librarii, framwork-uri si tool-uri
 
-1. [Introducere în SDLC](sdlc-tools-table.md)
-2. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
-3. [Introducere în Maven](tools-basic/introducere-maven.md)
+1. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
+2. [Introducere în Maven](tools-basic/introducere-maven.md)
+3. [Libraria Lombok](librarii-si-frameworks/limbraria-lombok.md)
 
-## Librarii si framwork-uri
-
-1. [Libraria Lombok](librarii-si-frameworks/limbraria-lombok.md)
+---
 
 ## Unified Modeling Language (UML)
 
@@ -40,6 +40,13 @@
 4. [Diagrame de clasa](uml/04-class-diagram.md)
 5. [Exemplu diagrame de clase](uml/05-class-diagram-exemplu.md)
 
+---
+
+## Proiectarea aplcatiilor si Sabloane de proiectare
+
+1. [Introducere în SDLC](sdlc-tools-table.md)
+
+---
 ## Validarea cunostintelor 
 
 1. [Exercitii introducere in OOP](exercitii-si-intrebari/exercitii-oop-baza.md)
