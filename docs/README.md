@@ -42,7 +42,7 @@
 
 ---
 
-## Proiectarea aplcatiilor si Sabloane de proiectare
+## Proiectarea aplicatiilor si Sabloane de proiectare
 
 1. [Introducere în SDLC](sdlc-tools-table.md)
 
