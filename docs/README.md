@@ -5,13 +5,13 @@
 ---
 
 ## Introducere în Programare în Java
-1. [Ecosistemul Java: Ghid pentru programatori începători](java-ecosystem.md)
+1. [Introducere în ecosistemul Java](java-ecosystem.md)
 2. [Introducere în structurile lexicale în Java](oop-basic/01-structuri-lexicale.md)
 2. [Introducere în structuri repetitive și condiționale în Java](oop-basic/02-structuri-repetitive-conditionale.md)
 3. [Introducere în tipuri primitive de date și array-uri în Java](oop-basic/03-tipuri-primitive.md)
 4. [Manipularea șirurilor de caractere, clasa String în Java](oop-basic/04-String-siruri-de-caractere.md)
 
-## Programare OOP 
+## Concepte de baza OOP 
 
 1. [Introducere OOP](oop-basic/05-clasa-si-obiect.md)
 2. [Pachete](oop-basic/06-pachete-si-librarii.md)
@@ -23,12 +23,6 @@
 
 2. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
 3. [Optional si null](oop-advanced/03-optional-si-null.md)
-
-## Librarii, framwork-uri si tool-uri
-
-1. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
-2. [Introducere în Maven](tools-basic/introducere-maven.md)
-3. [Libraria Lombok](librarii-si-frameworks/limbraria-lombok.md)
 
 ---
 
@@ -44,7 +38,15 @@
 
 ## Proiectarea aplicatiilor si Sabloane de proiectare
 
-1. [Introducere în SDLC](sdlc-tools-table.md)
+1. [Introducere în SDLC](oop-design/sdlc-tools-table.md)
+2. [Principiile OOP](oop-design/principiile-oop.md)
+
+---
+## Librarii, framwork-uri si tool-uri
+
+1. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
+2. [Introducere în Maven](tools-basic/introducere-maven.md)
+3. [Libraria Lombok](librarii-si-frameworks/limbraria-lombok.md)
 
 ---
 ## Validarea cunostintelor 

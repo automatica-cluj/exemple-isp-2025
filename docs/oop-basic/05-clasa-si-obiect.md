@@ -12,11 +12,9 @@
    - [this](#this)
    - [static](#static)
    - [final](#final)
-7. [Principiul Încapsulării](#principiul-încapsulării)
-8. [Supraîncărcarea Metodelor](#supraîncărcarea-metodelor)
-9. [Compararea Obiectelor](#compararea-obiectelor)
-10. [Specificatori de Acces](#specificatori-de-acces)
-11. [Garbage Collector](#garbage-collector)
+7. [Compararea Obiectelor](#compararea-obiectelor)
+8. [Specificatori de Acces](#specificatori-de-acces)
+9. [Garbage Collector](#garbage-collector)
 
 ## Clasa și Obiect
 
@@ -356,74 +354,6 @@ public final class ClasaFinala {
     // Această clasă nu poate fi extinsă
 }
 ```
-
-## Principiul Încapsulării
-
-Încapsularea este unul dintre principiile fundamentale ale OOP care:
-- Ascunde implementarea internă a unui obiect
-- Expune doar o interfață publică pentru interacțiune
-- Protejează integritatea datelor
-
-Implementarea încapsulării:
-1. Declararea atributelor ca `private`
-2. Furnizarea metodelor publice de acces (getteri) și modificare (setteri)
-
-```java
-public class ContBancar {
-    // Atribute private (ascunse față de exterior)
-    private String numarCont;
-    private double sold;
-    private String proprietar;
-    
-    // Constructor
-    public ContBancar(String numarCont, String proprietar) {
-        this.numarCont = numarCont;
-        this.proprietar = proprietar;
-        this.sold = 0.0;
-    }
-    
-    // Metode Getter - permit citirea atributelor
-    public String getNumarCont() {
-        return numarCont;
-    }
-    
-    public String getProprietar() {
-        return proprietar;
-    }
-    
-    public double getSold() {
-        return sold;
-    }
-    
-    // Metode Setter - permit modificarea controlată a atributelor
-    public void setProprietar(String proprietar) {
-        this.proprietar = proprietar;
-    }
-    
-    // Nu oferim setter pentru numarCont - nu dorim să permitem modificarea
-    
-    // Metode de business - implementează logica de modificare a soldului
-    public void depunere(double suma) {
-        if (suma > 0) {
-            sold += suma;
-        }
-    }
-    
-    public boolean retragere(double suma) {
-        if (suma > 0 && suma <= sold) {
-            sold -= suma;
-            return true;
-        }
-        return false;
-    }
-}
-```
-
-Avantajele încapsulării:
-- Controlul asupra modului în care datele sunt accesate și modificate
-- Validarea datelor la intrare
-- Posibilitatea modificării implementării interne fără a afecta codul client
-- Ascunderea detaliilor de implementare
 
 ## Supraîncărcarea Metodelor
 

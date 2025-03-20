@@ -18,7 +18,7 @@ SDLC joacă un rol crucial în dezvoltarea software deoarece:
 - **Optimizează resursele** - Ajută la planificarea eficientă
 - **Facilitează colaborarea** - Clarifică roluri și responsabilități
 
-[Tool-uri si unelte specifice SDLC](sdlc-tools-table.md)
+[Tool-uri si unelte specifice SDLC](oop-design/sdlc-tools-table.md)
 
 ## Fundamente Java
 
