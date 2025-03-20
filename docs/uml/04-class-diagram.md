@@ -1,5 +1,23 @@
 # Diagramele de Clase UML
 
+## Cuprins
+1. [Introducere](#introducere)
+2. [Elementele fundamentale ale unei diagrame de clase](#elementele-fundamentale-ale-unei-diagrame-de-clase)
+    - [1. Clasa](#1-clasa)
+    - [2. Interfața](#2-interfața)
+    - [3. Specificatori de acces](#3-specificatori-de-acces)
+3. [Relații între clase](#relații-între-clase)
+    - [1. Asociere](#1-asociere)
+        - [Multiplicitate](#multiplicitate)
+        - [Clasă de asociere](#clasă-de-asociere)
+    - [2. Agregare simplă](#2-agregare-simplă)
+    - [3. Compoziție](#3-compoziție)
+    - [4. Moștenire (Extindere)](#4-moștenire-extindere)
+    - [5. Implementare interfață](#5-implementare-interfață)
+    - [6. Dependență](#6-dependență)
+4. [Recomandări pentru construirea diagramelor de clase](#recomandări-pentru-construirea-diagramelor-de-clase)
+5. [Concluzii](#concluzii)
+
 ## Introducere
 
 Diagramele de clase reprezintă un element fundamental în limbajul de modelare UML (Unified Modeling Language), fiind utilizate pentru descrierea structurală a unui sistem software. Aceste diagrame evidențiază clasele din sistem, atributele și metodele acestora, precum și relațiile dintre clase, oferind o reprezentare vizuală clară a arhitecturii sistemului.
