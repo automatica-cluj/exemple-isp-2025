@@ -1,0 +1,24 @@
+title: ISP Course Documentation
+description: Documentation for Introduction to Software Programming Course
+theme: jekyll-theme-minimal
+
+# Navigation structure
+nav_items:
+  - title: Home
+    url: /
+  - title: Java Ecosystem
+    url: /java-ecosystem
+  - title: OOP Basics
+    url: /oop-basic/
+  - title: OOP Advanced
+    url: /oop-advanced/
+  - title: OOP Design
+    url: /oop-design/
+  - title: UML
+    url: /uml/
+  - title: Tools
+    url: /tools-basic/
+  - title: Libraries & Frameworks
+    url: /librarii-si-frameworks/
+  - title: Exercises & Questions
+    url: /exercitii-si-intrebari/ 
