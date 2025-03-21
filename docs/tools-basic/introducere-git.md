@@ -1,3 +1,8 @@
+---
+layout: default
+title: Introduction to Git
+---
+
 # Git: Esențial în Dezvoltarea Software Modernă
 
 ## Ce este Git?

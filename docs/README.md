@@ -1,3 +1,8 @@
+---
+layout: default
+title: Introduction to Software Programming
+---
+
 # Ingineria Sistemelor de Programe 
 
 ![jv1.gif](media/jv1.gif)

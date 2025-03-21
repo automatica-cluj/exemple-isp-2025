@@ -1,3 +1,8 @@
+---
+layout: default
+title: UML Use Case Diagrams
+---
+
 # Documentație pentru Diagrame UML Use-Case
 
 ## Introducere în diagramele Use-Case
