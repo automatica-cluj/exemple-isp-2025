@@ -1,7 +1,3 @@
----
-layout: default
-title: Introduction to Software Programming
----
 
 # Ingineria Sistemelor de Programe 
 
