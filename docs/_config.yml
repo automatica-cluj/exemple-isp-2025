@@ -4,6 +4,6 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
-nav_items:
-  - title: Home
-    url: /
+#nav_items:
+#  - title: Home
+#    url: /
