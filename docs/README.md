@@ -1,3 +1,8 @@
+---
+layout: default
+title: Ingineria Sistemelor de Programe
+permalink: /
+---
 
 # Ingineria Sistemelor de Programe 
 
