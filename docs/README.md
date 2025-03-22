@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 title: Ingineria Sistemelor de Programe
 permalink: /
----
+--- -->
 
 ---
 
