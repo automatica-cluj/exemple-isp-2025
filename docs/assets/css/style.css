@@ -1,54 +1,72 @@
 /* Hacker theme enhancements */
 body {
-    background-color: #0d1117;
-    color: #c9d1d9;
-    font-family: 'Courier New', monospace;
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    font-family: 'Courier New', monospace !important;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.site-header {
+    background-color: #161b22 !important;
+    border-bottom: 1px solid #30363d !important;
+    padding: 1rem 0;
+}
+
+.site-title {
+    color: #58a6ff !important;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #58a6ff;
-    border-bottom: 1px solid #30363d;
+    color: #58a6ff !important;
+    border-bottom: 1px solid #30363d !important;
     padding-bottom: 0.3em;
 }
 
 a {
-    color: #58a6ff;
+    color: #58a6ff !important;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 a:hover {
-    color: #79c0ff;
+    color: #79c0ff !important;
     text-decoration: underline;
 }
 
 code {
-    background-color: #161b22;
-    border: 1px solid #30363d;
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
     border-radius: 3px;
     padding: 0.2em 0.4em;
-    font-family: 'Courier New', monospace;
+    font-family: 'Courier New', monospace !important;
 }
 
 pre {
-    background-color: #161b22;
-    border: 1px solid #30363d;
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
     border-radius: 3px;
     padding: 1em;
     overflow-x: auto;
 }
 
 pre code {
-    background-color: transparent;
-    border: none;
+    background-color: transparent !important;
+    border: none !important;
     padding: 0;
 }
 
 blockquote {
-    border-left: 4px solid #30363d;
+    border-left: 4px solid #30363d !important;
     margin: 0;
     padding-left: 1em;
-    color: #8b949e;
+    color: #8b949e !important;
 }
 
 table {
@@ -58,75 +76,91 @@ table {
 }
 
 th, td {
-    border: 1px solid #30363d;
+    border: 1px solid #30363d !important;
     padding: 0.5em;
     text-align: left;
 }
 
 th {
-    background-color: #161b22;
-    color: #58a6ff;
+    background-color: #161b22 !important;
+    color: #58a6ff !important;
 }
 
 tr:nth-child(even) {
-    background-color: #161b22;
+    background-color: #161b22 !important;
 }
 
 /* Navigation enhancements */
+.site-nav {
+    margin-top: 1rem;
+}
+
 .nav-list {
-    background-color: #161b22;
-    border-bottom: 1px solid #30363d;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .nav-item a {
-    color: #c9d1d9;
+    color: #c9d1d9 !important;
     padding: 0.5em 1em;
     display: block;
     transition: background-color 0.2s ease;
 }
 
 .nav-item a:hover {
-    background-color: #21262d;
-    color: #58a6ff;
+    background-color: #21262d !important;
+    color: #58a6ff !important;
 }
 
-/* Header and footer */
-.site-header {
-    border-bottom: 1px solid #30363d;
+.nav-item a.active {
+    background-color: #21262d !important;
+    color: #58a6ff !important;
 }
 
+/* Page content */
+.page-content {
+    padding: 2rem 0;
+}
+
+/* Footer */
 .site-footer {
-    border-top: 1px solid #30363d;
-    color: #8b949e;
+    border-top: 1px solid #30363d !important;
+    color: #8b949e !important;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 /* Button styles */
 .btn {
-    background-color: #238636;
-    color: #ffffff;
-    border: 1px solid #2ea043;
+    background-color: #238636 !important;
+    color: #ffffff !important;
+    border: 1px solid #2ea043 !important;
     border-radius: 3px;
     padding: 0.5em 1em;
     transition: background-color 0.2s ease;
 }
 
 .btn:hover {
-    background-color: #2ea043;
-    color: #ffffff;
+    background-color: #2ea043 !important;
+    color: #ffffff !important;
 }
 
 /* Code block syntax highlighting */
 .highlight {
-    background-color: #161b22;
-    border: 1px solid #30363d;
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
     border-radius: 3px;
     padding: 1em;
     overflow-x: auto;
 }
 
 .highlight pre {
-    background-color: transparent;
-    border: none;
+    background-color: transparent !important;
+    border: none !important;
     padding: 0;
     margin: 0;
 }

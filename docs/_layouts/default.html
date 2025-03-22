@@ -4,58 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <style>
-        .nav-container {
-            background-color: #f8f9fa;
-            padding: 1rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .nav-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        .nav-item a {
-            text-decoration: none;
-            color: #333;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: background-color 0.2s;
-        }
-        .nav-item a:hover {
-            background-color: #e9ecef;
-        }
-        .content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-        @media (max-width: 768px) {
-            .nav-list {
-                flex-direction: column;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% for stylesheet in site.stylesheets %}
+    <link rel="stylesheet" href="{{ stylesheet | relative_url }}">
+    {% endfor %}
 </head>
 <body>
-    <nav class="nav-container">
-        <ul class="nav-list">
-            {% for item in site.nav_items %}
-            <li class="nav-item">
-                <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
-                    {{ item.title }}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </nav>
+    <header class="site-header">
+        <div class="wrapper">
+            <h1 class="site-title">{{ site.title }}</h1>
+            <nav class="site-nav">
+                <ul class="nav-list">
+                    {% for item in site.nav_items %}
+                    <li class="nav-item">
+                        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
+                            {{ item.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="content">
-        {{ content }}
-    </div>
+    <main class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>{{ site.description }}</p>
+        </div>
+    </footer>
 </body>
 </html> 
