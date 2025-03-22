@@ -1,20 +1,11 @@
-# Principiile OOP
+# Principiile de baza OOP
 
 # Cuprins
 
-## Principiile de baza OOP 
 1. [Principiul Încapsulării](#principiul-încapsulării)
 2. [Principiul Moștenirii](#principiul-moștenirii)
 3. [Principiul Polimorfismului](#principiul-polimorfismului)
 4. [Principiul Abstractizării](#principiul-abstractizării)
-
-## Principiile avansate OOP (S.O.L.I.D.)
-
-5. [Principiul Segregării Interfețelor](#principiul-segregării-interfețelor)
-6. [Principiul Responsabilității Unice](#principiul-responsabilității-unice)
-7. [Principiul Deschis-Închis](#principiul-deschis-închis)
-8. [Principiul Substituției Liskov](#principiul-substituției-liskov)
-9. [Principiul Inversiunii Dependențelor](#principiul-inversiunii-dependențelor)
 
 ## Principiul Încapsulării
 
@@ -190,235 +181,134 @@ Avantajele polimorfismului:
 
 ## Principiul Abstractizării
 
-Abstractizarea este procesul de identificare a caracteristicilor esențiale ale unui obiect și ignorarea detaliilor nerelevante.
+**Abstractizarea** este procesul de **ascundere a detaliilor de implementare** și de **expunere a funcționalității esențiale**. În OOP, abstractizarea înseamnă să arătăm *ce face* un obiect, nu *cum o face*.
+
+Scopul abstractizării
+- Simplifică utilizarea claselor și obiectelor.
+- Ascunde complexitatea internă.
+- Permite programarea orientată spre interfețe și concepte generale.
+
+Cum realizăm abstractizarea în Java?
+
+Java oferă două mecanisme principale:
+1. **Clase abstracte** (`abstract class`)
+2. **Interfețe** (`interface`)
+
+
+Exemplu cu `abstract class`
 
 ```java
-// Clasa abstractă
-public abstract class ContAbstract {
-    private String numarCont;
-    private double sold;
-    
-    public ContAbstract(String numarCont) {
-        this.numarCont = numarCont;
-        this.sold = 0.0;
+abstract class Animal {
+    abstract void makeSound(); // metodă abstractă
+
+    void breathe() { // metodă concretă
+        System.out.println("Breathing...");
     }
-    
-    // Metode concrete
-    public double getSold() {
-        return sold;
-    }
-    
-    protected void modificaSold(double suma) {
-        this.sold += suma;
-    }
-    
-    // Metode abstracte - trebuie implementate de subclase
-    public abstract boolean retragere(double suma);
-    public abstract boolean transfer(ContAbstract destinatie, double suma);
-}
-```
-
-Avantajele abstractizării:
-- Simplificarea modelării obiectelor complexe
-- Concentrarea pe caracteristicile esențiale
-- Oferirea unui cadru pentru implementări viitoare
-- Reducerea complexității pentru utilizatorii clasei
-
-## Principiul Segregării Interfețelor
-
-Acest principiu susține că o clasă nu ar trebui să fie forțată să implementeze interfețe care nu îi sunt necesare. Interfețele trebuie să fie granulare și specifice.
-
-```java
-// Interfațe segregate
-public interface Depozitabil {
-    void depunere(double suma);
 }
 
-public interface Retragibil {
-    boolean retragere(double suma);
-}
-
-public interface Transferabil {
-    boolean transfer(ContBancar destinatie, double suma);
-}
-
-// Implementare care folosește doar interfețele necesare
-public class ContDepozit implements Depozitabil {
-    private double sold;
-    
+class Dog extends Animal {
     @Override
-    public void depunere(double suma) {
-        if (suma > 0) {
-            sold += suma;
-        }
-    }
-    
-    // Nu implementează retragere, deoarece nu permite retrageri
-}
-```
-
-## Principiul Responsabilității Unice
-
-Acest principiu afirmă că o clasă ar trebui să aibă un singur motiv pentru a fi modificată, respectiv să aibă o singură responsabilitate.
-
-```java
-// Clasă pentru operațiuni bancare
-public class ContBancar {
-    // Atribute și operațiuni bancare de bază
-}
-
-// Clasă separată pentru raportare
-public class RaportareCont {
-    public String genereazaExtras(ContBancar cont) {
-        // Cod pentru generarea extrasului
-    }
-    
-    public void trimiteNotificare(ContBancar cont, String mesaj) {
-        // Cod pentru trimiterea notificărilor
-    }
-}
-
-// Clasă separată pentru securitate
-public class SecuritateCont {
-    public boolean verificaAutorizare(String idCont, String codAutorizare) {
-        // Verifică autorizarea operațiunilor
+    void makeSound() {
+        System.out.println("Woof!");
     }
 }
 ```
 
-## Principiul Deschis-Închis
+Explicație
+- `Animal` definește comportamentul abstract `makeSound()`.
+- `Dog` implementează detaliile concrete.
+- Utilizatorul clasei `Animal` nu are nevoie să știe cum face sunetul un câine.
 
-Acest principiu afirmă că entitățile software (clase, module, funcții etc.) ar trebui să fie deschise pentru extindere, dar închise pentru modificare.
+Exemplu cu `interface`
 
 ```java
-// Interfață pentru strategii de calculare a comisioanelor
-public interface StrategieComision {
-    double calculeazaComision(double suma);
+interface Shape {
+    double area();
 }
 
-// Implementări concrete ale strategiilor
-public class ComisionStandard implements StrategieComision {
-    @Override
-    public double calculeazaComision(double suma) {
-        return suma * 0.01; // 1%
-    }
-}
+class Circle implements Shape {
+    double radius;
 
-public class ComisionPremium implements StrategieComision {
-    @Override
-    public double calculeazaComision(double suma) {
-        return suma * 0.005; // 0.5%
+    Circle(double r) {
+        this.radius = r;
     }
-}
 
-// Clasa client este închisă pentru modificare, dar comportamentul poate fi extins
-public class ProcesorTranzactii {
-    private StrategieComision strategieComision;
-    
-    public ProcesorTranzactii(StrategieComision strategieComision) {
-        this.strategieComision = strategieComision;
-    }
-    
-    public double proceseazaTranzactie(double suma) {
-        double comision = strategieComision.calculeazaComision(suma);
-        // Procesare tranzacție
-        return suma - comision;
+    public double area() {
+        return Math.PI * radius * radius;
     }
 }
 ```
 
-## Principiul Substituției Liskov
+Explicație
+- `Shape` definește metoda `area()` fără implementare.
+- `Circle` implementează metoda și oferă calculul concret.
 
-Acest principiu afirmă că obiectele unei clase derivate trebuie să poată înlocui obiectele clasei de bază fără a afecta corectitudinea programului.
+
+Beneficiile abstractizării
+
+- Cod mai curat, modular și ușor de întreținut.
+- Separare clară între „interfață” și „implementare”.
+- Favorizează reutilizarea și testarea mai ușoară a componentelor.
+
+## 💳 Exemplu real: Sistem de Plată
+
+Să presupunem că ai o aplicație care permite efectuarea de plăți prin mai multe metode: Card bancar, PayPal și Crypto.
+
+### 1. Interfață de abstractizare
 
 ```java
-public class Forma {
-    public double getArie() {
-        // Implementare
-        return 0;
+public interface PaymentMethod {
+    void pay(double amount);
+}
+```
+
+### 2. Implementări concrete
+
+```java
+public class CreditCardPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paid " + amount + " via Credit Card.");
     }
 }
 
-public class Dreptunghi extends Forma {
-    private double lungime;
-    private double latime;
-    
-    // Constructor și getteri/setteri
-    
-    @Override
-    public double getArie() {
-        return lungime * latime;
+public class PayPalPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paid " + amount + " via PayPal.");
     }
 }
 
-public class Cerc extends Forma {
-    private double raza;
-    
-    // Constructor și getteri/setteri
-    
-    @Override
-    public double getArie() {
-        return Math.PI * raza * raza;
-    }
-}
-
-// Funcție care respectă principiul Liskov
-public void afiseazaArii(List<Forma> forme) {
-    for (Forma forma : forme) {
-        System.out.println("Aria: " + forma.getArie());
+public class CryptoPayment implements PaymentMethod {
+    public void pay(double amount) {
+        System.out.println("Paid " + amount + " via Cryptocurrency.");
     }
 }
 ```
 
-## Principiul Inversiunii Dependențelor
-
-Acest principiu afirmă că modulele de nivel înalt nu ar trebui să depindă de modulele de nivel scăzut. Ambele ar trebui să depindă de abstracții.
+### 3. Clasa care folosește abstractizarea
 
 ```java
-// Abordare incorectă
-public class ServiciuNotificare {
-    private EmailSender emailSender;
-    
-    public ServiciuNotificare() {
-        this.emailSender = new EmailSender();
-    }
-    
-    public void trimiteNotificare(String destinatar, String mesaj) {
-        emailSender.trimiteEmail(destinatar, mesaj);
-    }
-}
-
-// Abordare corectă conform principiului
-public interface MesajeSender {
-    void trimite(String destinatar, String mesaj);
-}
-
-public class EmailSender implements MesajeSender {
-    @Override
-    public void trimite(String destinatar, String mesaj) {
-        // Trimitere email
-    }
-}
-
-public class SMSSender implements MesajeSender {
-    @Override
-    public void trimite(String destinatar, String mesaj) {
-        // Trimitere SMS
-    }
-}
-
-public class ServiciuNotificare {
-    private MesajeSender mesajeSender;
-    
-    // Injectare dependență
-    public ServiciuNotificare(MesajeSender mesajeSender) {
-        this.mesajeSender = mesajeSender;
-    }
-    
-    public void trimiteNotificare(String destinatar, String mesaj) {
-        mesajeSender.trimite(destinatar, mesaj);
+public class PaymentProcessor {
+    public void processPayment(PaymentMethod method, double amount) {
+        method.pay(amount);
     }
 }
 ```
 
-Aplicarea corectă a acestor principii conduce la cod mai modular, mai ușor de întreținut și extins, reducând duplicarea și îmbunătățind claritatea și flexibilitatea sistemului.
+### 4. Exemplu de utilizare
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        PaymentProcessor processor = new PaymentProcessor();
+
+        processor.processPayment(new CreditCardPayment(), 150.0);
+        processor.processPayment(new PayPalPayment(), 75.0);
+        processor.processPayment(new CryptoPayment(), 300.0);
+    }
+}
+```
+
+### Ce demonstrează acest exemplu?
+- `PaymentProcessor` este complet decuplat de metodele de plată concrete.
+- Se poate adăuga o nouă metodă de plată (ex: Apple Pay) fără a modifica clasele existente.
+- Abstractizarea face codul flexibil, extensibil și ușor de întreținut.

@@ -1,3 +1,10 @@
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: [Ingineria Sistemelor de Programe]
+description: [Documentatie suplimentara, ISP, Seria B si SM]
+
 # title: ISP Course Documentation
 # description: Documentation for Introduction to Software Programming Course
 # theme: jekyll-theme-minimal

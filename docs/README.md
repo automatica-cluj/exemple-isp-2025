@@ -40,14 +40,15 @@
 ## Proiectarea aplicatiilor si Sabloane de proiectare
 
 1. [Introducere în SDLC](oop-design/sdlc-tools-table.md)
-2. [Principiile OOP](oop-design/principiile-oop.md)
+2. [Principiile de baza OOP](oop-design/principiile-oop.md)
+3. [Principiile S.O.L.I.D.](oop-design/principiile-solid.md)
 
 ---
 ## Librarii, framwork-uri si tool-uri
 
 1. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
 2. [Introducere în Maven](tools-basic/introducere-maven.md)
-3. [Libraria Lombok](librarii-si-frameworks/limbraria-lombok.md)
+3. [Libraria Lombok](tools-basic/limbraria-lombok.md)
 
 ---
 ## Validarea cunostintelor 
