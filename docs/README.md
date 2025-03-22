@@ -4,13 +4,13 @@ title: Ingineria Sistemelor de Programe
 permalink: /
 ---
 
-# Ingineria Sistemelor de Programe 
+---
 
 ![jv1.gif](media/jv1.gif)
 
 ---
 
-## Introducere în Programare în Java
+## Introducere în Java
 1. [Introducere în ecosistemul Java](java-ecosystem.md)
 2. [Structuri lexiale](oop-basic/01-structuri-lexicale.md)
 2. [Structuri repetitive și condiționale](oop-basic/02-structuri-repetitive-conditionale.md)
