@@ -1,5 +1,9 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
+title: Ingineria Sistemelor de Programe
+description: Documentaie pentru cursul de Ingineria Sistemelor de Programe, Seria B & SM, UTCN, Automatica
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
+
+nav_items:
+  - title: Home
+    url: /
