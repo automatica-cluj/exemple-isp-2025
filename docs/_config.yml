@@ -3,3 +3,47 @@ description: Documentaie pentru cursul de Ingineria Sistemelor de Programe, Seri
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-asciidoc
+  - jekyll-asciidoc-include
+  - jekyll-asciidoc-include-ext
+  - jekyll-asciidoc-include-tag
+  - jekyll-asciidoc-plantuml
+  - jekyll-asciidoc-math
+  - jekyll-asciidoc-mermaid
+  - jekyll-asciidoc-diagram
+  - jekyll-asciidoc-emoji
+  - jekyll-asciidoc-highlight
+  - jekyll-asciidoc-rouge
+  - jekyll-asciidoc-table
+  - jekyll-asciidoc-toc
+  - jekyll-asciidoc-attributes
+  - jekyll-asciidoc-extensions
+  - jekyll-asciidoc-extensions-include
+  - jekyll-asciidoc-extensions-include-ext
+  - jekyll-asciidoc-extensions-include-tag
+  - jekyll-asciidoc-extensions-plantuml
+  - jekyll-asciidoc-extensions-math
+  - jekyll-asciidoc-extensions-mermaid
+  - jekyll-asciidoc-extensions-diagram
+  - jekyll-asciidoc-extensions-emoji
+  - jekyll-asciidoc-extensions-highlight
+  - jekyll-asciidoc-extensions-rouge
+  - jekyll-asciidoc-extensions-table
+  - jekyll-asciidoc-extensions-toc
+  - jekyll-asciidoc-extensions-attributes
+  - jekyll-asciidoc-extensions-extensions
+  - jekyll-asciidoc-extensions-extensions-include
+  - jekyll-asciidoc-extensions-extensions-include-ext
+  - jekyll-asciidoc-extensions-extensions-include-tag
+  - jekyll-asciidoc-extensions-extensions-plantuml
+  - jekyll-asciidoc-extensions-extensions-math
