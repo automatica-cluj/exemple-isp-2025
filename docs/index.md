@@ -24,9 +24,10 @@ title: Ingineria Sistemelor de Programe
 
 ## Concepte avansate OOP
 
-2. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
-3. [Optional si null](oop-advanced/03-optional-si-null.md)
-
+1. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
+2. [Optional si null](oop-advanced/03-optional-si-null.md)
+3. [Colectii de obiecte](oop-advanced/04-colectii.md)
+4. [Stream API](oop-advanced/05-stream-api.md)
 ---
 
 ## Unified Modeling Language (UML)
@@ -58,3 +59,4 @@ title: Ingineria Sistemelor de Programe
 1. [Exercitii introducere in OOP](exercitii-si-intrebari/exercitii-oop-baza.md)
 2. [Exercitii agregare compozitie si mostenire](exercitii-si-intrebari/exercitii-oop-avansat.md)
 3. [Exercitii interfete si clase abstracte](exercitii-si-intrebari/exercitii-interfete-abstract.md)
+4. [Exercitii colectii de obiecte](exercitii-si-intrebari/exercitii-colectii.md)
