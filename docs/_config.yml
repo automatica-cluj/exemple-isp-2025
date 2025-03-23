@@ -1,3 +1,28 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+
+title: Ingineria Sistemelor de Programe
+description: Documentatie suplimentara, ISP, Seria B si SM
+theme: jekyll-theme-hacker
+
+# Navigation structure
+nav_items:
+  - title: Home
+    url: /
+  - title: Java Ecosystem
+    url: /java-ecosystem/
+  - title: OOP Basics
+    url: /oop-basic/
+  - title: OOP Advanced
+    url: /oop-advanced/
+  - title: OOP Design
+    url: /oop-design/
+  - title: UML
+    url: /uml/
+  - title: Tools
+    url: /tools-basic/
+  - title: Libraries & Frameworks
+    url: /librarii-si-frameworks/
+  - title: Exercises & Questions
+    url: /exercitii-si-intrebari/
