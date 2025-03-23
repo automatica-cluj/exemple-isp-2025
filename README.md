@@ -2,7 +2,7 @@
 
 Acest repository conține cod exemplu și exerciții pentru **ISP Seria B, Cluj-Napoca & Satu-Mare**. Acest repository este o colecție de proiecte Java, fiecare proiect în propriul său folder.
 
-Repositoryul vine cu o documentati suplimentara ce completeaza informatiile prezentate in cadrul cursului pentru a ajuta studentii sa inteleaga mai bine conceptele prezentate. Cuprinsul aceste documentatii suplimentare poate fi gasit **[aici](docs/index.md)**.
+Repositoryul vine cu o documentati suplimentara ce completeaza informatiile prezentate in cadrul cursului pentru a ajuta studentii sa inteleaga mai bine conceptele prezentate. Documentatia suplimentara poate fi accesata [aici](https://automatica-cluj.github.io/exemple-isp-2025/). 
 
 ## Primii Pași
 1. Clonează acest repository:
