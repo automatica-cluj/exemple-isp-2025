@@ -28,6 +28,9 @@ title: Ingineria Sistemelor de Programe
 2. [Optional si null](oop-advanced/03-optional-si-null.md)
 3. [Colectii de obiecte](oop-advanced/04-colectii.md)
 4. [Streams API](oop-advanced/05-streams-api.md)
+5. [Expresii lambda](oop-advanced/07-expresii-lambda.md)
+6. [Fluxuri IO](oop-advanced/06-io-streams.md)
+ 
 ---
 
 ## Unified Modeling Language (UML)
