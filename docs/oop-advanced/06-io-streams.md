@@ -10,11 +10,6 @@
 7. [Citirea și Scrierea Fișierelor de Text](#citirea-și-scrierea-fișierelor-de-text)
 8. [Procesare I/O cu NIO și NIO.2](#procesare-io-cu-nio-și-nio2)
 9. [Serializarea și Deserializarea](#serializarea-și-deserializarea)
-10. [Tehnici Avansate](#tehnici-avansate)
-11. [Gestionarea Resurselor și Try-with-Resources](#gestionarea-resurselor-și-try-with-resources)
-12. [Exemple Practice](#exemple-practice)
-13. [Bune Practici](#bune-practici)
-14. [Probleme Comune și Soluții](#probleme-comune-și-soluții)
 
 ## Introducere în I/O Streams
 
@@ -652,49 +647,3 @@ class CustomPerson implements Serializable {
 - Serializarea are implicații de securitate - nu deserializa date din surse neîncredere
 - Mecanisme alternative: JSON, XML, Protocol Buffers, etc.
 
-## Tehnici Avansate
-
-### Stream-uri pentru Compresia Datelor
-
-Java oferă clase pentru comprimarea și decomprimarea datelor:
-
-```java
-// Comprimarea datelor cu GZIP
-try (GZIPOutputStream gzos = new GZIPOutputStream(
-        new FileOutputStream("data.gz"))) {
-    gzos.write("Text care va fi comprimat.".getBytes());
-}
-
-// Decomprimarea datelor GZIP
-try (GZIPInputStream gzis = new GZIPInputStream(
-        new FileInputStream("data.gz"))) {
-    byte[] buffer = new byte[1024];
-    int len;
-    ByteArrayOutputStream baos = new ByteArrayOutputStream();
-    while ((len = gzis.read(buffer)) != -1) {
-        baos.write(buffer, 0, len);
-    }
-    System.out.println(baos.toString());
-}
-
-// Folosirea ZipOutputStream pentru arhive ZIP
-try (ZipOutputStream zos = new ZipOutputStream(
-        new FileOutputStream("archive.zip"))) {
-    
-    // Adaugă primul fișier în arhivă
-    ZipEntry entry = new ZipEntry("fisier1.txt");
-    zos.putNextEntry(entry);
-    zos.write("Conținutul primului fișier".getBytes());
-    zos.closeEntry();
-    
-    // Adaugă al doilea fișier în arhivă
-    entry = new ZipEntry("fisier2.txt");
-    zos.putNextEntry(entry);
-    zos.write("Conținutul celui de-al doilea fișier".getBytes());
-    zos.closeEntry();
-}
-```
-
-### Concatenarea Stream-urilor
-
-`SequenceInputSt
