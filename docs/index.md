@@ -27,7 +27,7 @@ title: Ingineria Sistemelor de Programe
 1. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
 2. [Optional si null](oop-advanced/03-optional-si-null.md)
 3. [Colectii de obiecte](oop-advanced/04-colectii.md)
-4. [Stream API](oop-advanced/05-stream-api.md)
+4. [Streams API](oop-advanced/05-streams-api.md)
 ---
 
 ## Unified Modeling Language (UML)
