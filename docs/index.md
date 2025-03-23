@@ -30,7 +30,7 @@ title: Ingineria Sistemelor de Programe
 4. [Streams API](oop-advanced/05-streams-api.md)
 5. [Expresii lambda](oop-advanced/07-lamda.md)
 6. [Fluxuri IO](oop-advanced/06-io-streams.md)
- 
+7. [Try with resources](oop-advanced/08-try-with-resources.md)
 ---
 
 ## Unified Modeling Language (UML)
