@@ -3,7 +3,7 @@ layout: default
 title: Java Ecosystem Guide
 ---
 
-# Ecosistemul Java: Ghid Complet pentru Programatori Începători
+# Ecosistemul Java
 
 ## Introducere în Ecosistemul Java
 
