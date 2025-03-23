@@ -6,6 +6,11 @@ title: Ingineria Sistemelor de Programe
 description: Documentatie suplimentara, ISP, Seria B si SM
 theme: jekyll-theme-hacker
 
+# Important: This tells Jekyll to process README.md as the index page
+readme_index:
+  enabled: true
+  remove_originals: false
+
 # # Navigation structure
 # nav_items:
 #   - title: Home
