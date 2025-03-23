@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Ingineria Sistemelor de Programe
+---
 ---
 
 ![jv1.gif](media/jv1.gif)
