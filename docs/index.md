@@ -31,6 +31,7 @@ title: Ingineria Sistemelor de Programe
 
 📦 Colecții și Manipulare de Date
 1. [Colectii de obiecte](oop-advanced/04-colectii.md)
+2. [Comparare obiectelor, interfetele Comparator si Comparable](oop-advanced/04-1-interfetele-comparator-comparable.md)
 2. [Fluxuri IO](oop-advanced/06-io-streams.md)
 3. [Streams API](oop-advanced/05-streams-api.md)
 
