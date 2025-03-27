@@ -24,14 +24,20 @@ title: Ingineria Sistemelor de Programe
 
 ## Concepte avansate OOP
 
+🧰 Programare Funcțională și Tipuri Avansate
 1. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
 2. [Optional si null](oop-advanced/03-optional-si-null.md)
-3. [Colectii de obiecte](oop-advanced/04-colectii.md)
-4. [Gestionarea erorilor](oop-advanced/09-gestionarea-erorilor.md)
-5. [Streams API](oop-advanced/05-streams-api.md)
-6. [Expresii lambda](oop-advanced/07-lamda.md)
-7. [Fluxuri IO](oop-advanced/06-io-streams.md)
-8. [Try with resources](oop-advanced/08-try-with-resources.md)
+3. [Expresii lambda](oop-advanced/07-lamda.md)
+
+📦 Colecții și Manipulare de Date
+1. [Colectii de obiecte](oop-advanced/04-colectii.md)
+2. [Fluxuri IO](oop-advanced/06-io-streams.md)
+3. [Streams API](oop-advanced/05-streams-api.md)
+
+⚠️ Gestionarea Resurselor și a Erorilor
+1. [Gestionarea erorilor](oop-advanced/09-gestionarea-erorilor.md)
+2. [Try with resources](oop-advanced/08-try-with-resources.md)
+
 ---
 
 ## Unified Modeling Language (UML)
@@ -41,6 +47,7 @@ title: Ingineria Sistemelor de Programe
 3. [Documentare diagrame use-case](uml/03-use-case-documentatie.md)
 4. [Diagrame de clasa](uml/04-class-diagram.md)
 5. [Exemplu diagrame de clase](uml/05-class-diagram-exemplu.md)
+6. [Diagrame de secvente](uml/06-sequence-diagram.md)
 
 ---
 
