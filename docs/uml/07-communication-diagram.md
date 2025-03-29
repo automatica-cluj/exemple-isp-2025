@@ -25,7 +25,7 @@ Diagramele de comunicare sunt folosite în principal pentru:
 
 ## Concepte fundamentale
 
-![img_1.png](img_1.png)
+![img_1.png](imgs-04-communication/img_1.png)
 
 ### Organizarea spațială
 
@@ -75,19 +75,19 @@ Condițiile și iterațiile sunt reprezentate în cadrul etichetelor mesajelor:
 
 ### Exemplul 1: Sistem de autentificare
 
-![img_2.png](img_2.png)
+![img_2.png](imgs-04-communication/img_2.png)
 
 ### Exemplul 2: Procesare comandă online
 
-![img_3.png](img_3.png)
+![img_3.png](imgs-04-communication/img_3.png)
 
 ### Exemplul 3: Sistem rezervări hotel
 
-![img_4.png](img_4.png)
+![img_4.png](imgs-04-communication/img_4.png)
 
 ### Exemplul 4: Sistem gestionare bibliotecă
 
-![img_5.png](img_5.png)
+![img_5.png](imgs-04-communication/img_5.png)
 
 ## Bune practici
 
