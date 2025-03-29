@@ -49,6 +49,7 @@ title: Ingineria Sistemelor de Programe
 4. [Diagrame de clasa](uml/04-class-diagram.md)
 5. [Exemplu diagrame de clase](uml/05-class-diagram-exemplu.md)
 6. [Diagrame de secvente](uml/06-sequence-diagram.md)
+7. [Diagrame de comunicare](uml/07-communication-diagram.md)
 
 ---
 
