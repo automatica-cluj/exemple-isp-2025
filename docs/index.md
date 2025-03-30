@@ -170,3 +170,5 @@ title: Ingineria Sistemelor de Programe
 2. [Exercitii agregare compozitie si mostenire](exercitii-si-intrebari/exercitii-oop-avansat.md)
 3. [Exercitii interfete si clase abstracte](exercitii-si-intrebari/exercitii-interfete-abstract.md)
 4. [Exercitii colectii de obiecte](exercitii-si-intrebari/exercitii-colectii.md)
+
+
