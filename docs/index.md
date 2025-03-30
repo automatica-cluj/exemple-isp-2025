@@ -77,7 +77,10 @@ title: Ingineria Sistemelor de Programe
 
 📐 Șabloane de Proiectare
 8. [Introducere sabloane de proiectare](oop-design/sabloane-introducere.md)
+
+
 ---
+
 ## Librarii, framwork-uri si tool-uri
 
 1. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
