@@ -77,7 +77,7 @@ title: Ingineria Sistemelor de Programe
 
 📐 Șabloane de Proiectare
 8. [Introducere sabloane de proiectare](oop-design/sabloane-introducere.md)
-9. [Exemple practice](../sabloane-proiectare)
+9. [Exemple practice](.https://github.com/automatica-cluj/exemple-isp-2025/tree/main/sabloane-proiectare)
 
 
 ---
