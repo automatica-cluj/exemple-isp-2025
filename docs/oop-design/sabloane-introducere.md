@@ -70,7 +70,9 @@ Pentru a utiliza eficient șabloanele de proiectare:
 
 ## Exempele de utilizare a șabloanelor
 
-TODO
+Pentru a ilustra utilizarea șabloanelor de proiectare, iată câteva exemple:
+[proiect sabloande de proiectare.](../../sample-1)
+
 
 ## Critici și considerații
 
