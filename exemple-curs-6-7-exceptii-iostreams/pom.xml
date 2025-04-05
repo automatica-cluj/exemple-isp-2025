@@ -12,8 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>15</maven.compiler.source>
-    <maven.compiler.target>15</maven.compiler.target>
+<!--    <maven.compiler.source>15</maven.compiler.source>-->
+<!--    <maven.compiler.target>15</maven.compiler.target>-->
   </properties>
 
   <dependencies>
@@ -58,8 +58,8 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.24</version>
-      <scope>compile</scope>
+      <version>1.18.30</version>
+      <scope>provided</scope>
     </dependency>
     <!--    <dependency>-->
 <!--      <groupId>junit</groupId>-->

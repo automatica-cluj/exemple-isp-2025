@@ -14,7 +14,8 @@ import java.util.List;
  * @author mihai.hulea
  */
 public class FilesAndFoldersUtil {
-     public static void createFolder(String folder){
+
+    public static void createFolder(String folder){
       File d = new File(folder);
       d.mkdirs();
     }

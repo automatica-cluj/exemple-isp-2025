@@ -6,6 +6,7 @@
 package utcluj.isp.curs67.files;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  *
@@ -15,13 +16,14 @@ public class Teste {
     public static void main(String[] args) throws IOException {
 //        FilesAndFoldersUtil.createFolder("tmp");
 //        FilesAndFoldersUtil.getFilesInFolder("tmp").stream().forEach(s->System.out.println(s));
-//        FileWriteUtil.writeUsingFiles("Line 1", "tmp\\test1.txt");
-//        FileReadUtil.readAllFileLines("tmp\\test1.txt").stream().forEach(System.out::println); //method refferece
+      //  FileWriteUtil.writeUsingFiles("Line 1", "tmp\\test1.txt");
+        FileReadUtil.readAllFileLines("tmp\\test1.txt").stream().forEach(System.out::println); //method refferece
 //        
         
-        FilesAndFoldersUtil.createFolder("c:\\_tmp2");
-        
-        
+   //     FilesAndFoldersUtil.createFolder("c:\\_tmp2");
+
+//        List<String> files = FilesAndFoldersUtil.getFilesInFolder("c:\\_tmp2");
+//        System.out.println(files);
     }
    
 }
