@@ -77,7 +77,6 @@ title: Ingineria Sistemelor de Programe
 
 📐 Șabloane de Proiectare
 8. [Introducere sabloane de proiectare](oop-design/sabloane-introducere.md)
-9. [Exemple practice](.https://github.com/automatica-cluj/exemple-isp-2025/tree/main/sabloane-proiectare)
 
 
 ---
@@ -87,6 +86,7 @@ title: Ingineria Sistemelor de Programe
 1. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
 2. [Introducere în Maven](tools-basic/introducere-maven.md)
 3. [Libraria Lombok](tools-basic/limbraria-lombok.md)
+4. [Github actions](tools-basic/github-actions.md)
 
 ---
 ## Validarea cunostintelor 
