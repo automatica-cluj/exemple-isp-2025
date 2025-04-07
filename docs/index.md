@@ -79,6 +79,8 @@ title: Ingineria Sistemelor de Programe
 8. [Introducere sabloane de proiectare](oop-design/sabloane-introducere.md)
 9. [Sabloane structurale](oop-design/sabloane-structural.md)
 10. [Sabloane creationale](oop-design/sabloane-creationale.md)
+
+
 ---
 
 ## Librarii, framwork-uri si tool-uri
