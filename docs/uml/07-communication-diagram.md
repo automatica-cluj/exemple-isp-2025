@@ -25,7 +25,7 @@ Diagramele de comunicare sunt folosite în principal pentru:
 
 ## Concepte fundamentale
 
-![img_1.png](img_1.png)
+![img_1.png](imgs-05-states/img_1.png)
 
 ### Organizarea spațială
 
