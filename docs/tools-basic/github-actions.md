@@ -1,4 +1,4 @@
-### Documentație în limba română: GitHub Actions și Procesul de Release pentru `demo-simple-app`
+### GitHub Actions 
 
 #### Ce sunt GitHub Actions?
 
@@ -44,6 +44,7 @@ Procesul formal de release urmează acești pași:
 3. **Verificare**:
     - Verifică tab-ul „Actions” pentru a te asigura că fluxul Docker s-a încheiat cu succes și imaginea a fost generată și publicată în GitHub Container Registry.
 
+
 ##### Screenshot-uri realizare pasi
 
 ->
@@ -75,7 +76,9 @@ Procesul formal de release urmează acești pași:
 ->
 ![img_14.png](imgs-githubactions/img_14.png)
 
+
 ##### Rularea aplicației utilizând imaginea Docker
+
 - Actualizează fișierul `docker-compose.yaml` cu versiunea dorită și cu utilizatorul/repository-ul tău. Exemplu:
 ```yaml
 services:
@@ -93,6 +96,7 @@ curl http://localhost:8080/hello
 ```
 
 ###### Screenshot-uri rulare aplicație 
+
 ->
 ![img_15.png](imgs-githubactions/img_15.png)
 -> 
