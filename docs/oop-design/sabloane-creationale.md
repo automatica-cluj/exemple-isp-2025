@@ -1,5 +1,7 @@
 # Cuprins
 
+Aceasta sectiune cuprinde cateva dintre cele mai utilizate sabloane de proiectare de tipul "Creational" (creare de obiecte). Aceste sabloane sunt esentiale pentru a intelege cum sa gestionam instantierea si ciclul de viata al obiectelor in aplicatiile noastre.
+
 1. [Șablon de proiectare Singleton](#șablon-de-proiectare-singleton)
 2. [Șablon de proiectare Factory Method](#șablon-de-proiectare-factory-method)
 3. [Șablon de proiectare Abstract Factory](#șablon-de-proiectare-abstract-factory)

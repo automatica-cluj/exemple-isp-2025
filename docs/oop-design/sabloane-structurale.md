@@ -1,5 +1,7 @@
 # Șabloane Structurale de Proiectare
 
+Aceasta sectiune cuprinde cateva șabloane structurale de proiectare care sunt utilizate frecvent în dezvoltarea software-ului. Aceste șabloane ajută la organizarea și gestionarea relațiilor dintre clase și obiecte, facilitând reutilizarea codului și reducerea complexității.
+
 ## Cuprins
 - [Șablon de proiectare Adapter](#șablon-de-proiectare-adapter)
 - [Șablon de proiectare Proxy](#șablon-de-proiectare-proxy)

@@ -79,7 +79,7 @@ title: Ingineria Sistemelor de Programe
 
 📐 Șabloane de Proiectare
 8. [Introducere sabloane de proiectare](oop-design/sabloane-introducere.md)
-9. [Sabloane structurale](oop-design/sabloane-structural.md)
+9. [Sabloane structurale](oop-design/sabloane-structurale.md)
 10. [Sabloane creationale](oop-design/sabloane-creationale.md)
 11. [Sabloane comportamentale](oop-design/sabloane-comportamentale.md)
 
