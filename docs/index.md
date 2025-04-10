@@ -28,6 +28,7 @@ title: Ingineria Sistemelor de Programe
 1. [Tipuri generice](oop-advanced/02-tipuri-generice.md)
 2. [Optional si null](oop-advanced/03-optional-si-null.md)
 3. [Expresii lambda](oop-advanced/07-lamda.md)
+4. [Adnotari](oop-advanced/10-adnotarile.md)
 
 📦 Colecții și Manipulare de Date
 1. [Colectii de obiecte](oop-advanced/04-colectii.md)
@@ -38,6 +39,9 @@ title: Ingineria Sistemelor de Programe
 ⚠️ Gestionarea Resurselor și a Erorilor
 1. [Gestionarea erorilor](oop-advanced/09-gestionarea-erorilor.md)
 2. [Try with resources](oop-advanced/08-try-with-resources.md)
+
+🔧 Alte concepte 
+1. [Adnotari](oop-advanced/10-adnotarile.md)
 
 ---
 
