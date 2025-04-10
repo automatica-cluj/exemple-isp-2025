@@ -41,7 +41,7 @@ title: Ingineria Sistemelor de Programe
 2. [Try with resources](oop-advanced/08-try-with-resources.md)
 
 🔧 Alte concepte 
-1. [Adnotari](oop-advanced/10-adnotarile.md)
+1. TODO
 
 ---
 
