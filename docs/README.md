@@ -1,6 +1,5 @@
 ---
 title: Ingineria Sistemelor de Programe
-hidden: true
 ---
 
 # Ingineria Sistemelor de Programe
