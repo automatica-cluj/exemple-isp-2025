@@ -54,8 +54,8 @@ public class SerializableExample {
 //
 //        writeAR(v1, workingFolder+"\\mywaypoint.dat");
 
-        AirwayRoute v2 = readAR(workingFolder+"\\mywaypoint.dat");
-        v2.display();
+//        AirwayRoute v2 = readAR(workingFolder+"\\mywaypoint.dat");
+//        v2.display();
 
 //        FilesAndFoldersUtil.createFolder(workingFolder);
 //        
@@ -66,11 +66,11 @@ public class SerializableExample {
 
         // FilesAndFoldersUtil.getFilesInFolder(workingFolder).stream().forEach((s)->System.out.println(""));
 
-//          List<String> files = FilesAndFoldersUtil.getFilesInFolder(workingFolder);
-//          for(String f: files){
-//              Vehicle v = readVehicle(workingFolder+"\\"+f);
-//              System.out.println(v);
-//          }
+          List<String> files = FilesAndFoldersUtil.getFilesInFolder(workingFolder);
+          for(String f: files){
+              Vehicle v = readVehicle(workingFolder+"\\"+f);
+              System.out.println(v);
+          }
     }
 }
 
