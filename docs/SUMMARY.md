@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Ingineria Sistemelor de Programe](README.md)
-* [Ecosistemul Java](java-ecosystem.md)
+* [Ecosistemul Java](README.md)
 * [oop-basic](oop-basic/README.md)
   * [Introducere în Structurile Lexicale în Java](oop-basic/01-structuri-lexicale.md)
   * [Introducere în Structuri Repetitive și Condiționale în Java](oop-basic/02-structuri-repetitive-conditionale.md)
