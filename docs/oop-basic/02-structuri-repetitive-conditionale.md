@@ -1,4 +1,4 @@
-# Introducere în Structuri Repetitive și Condiționale în Java
+# Structuri Repetitive și Condiționale
 
 ## Cuprins
 1. Introducere

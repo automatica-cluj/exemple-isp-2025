@@ -1,4 +1,4 @@
-# Introducere în Structurile Lexicale în Java
+# Structuri Lexicale
 
 ## Cuprins
 1. Ce sunt structurile lexicale?

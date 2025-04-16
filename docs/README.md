@@ -10,7 +10,7 @@ title: Ingineria Sistemelor de Programe
 
 ### Introducere în Java
 
-1. [Introducere în ecosistemul Java](java-ecosystem.md)
+1. [Introducere în ecosistemul Java](oop-basic/java-ecosystem.md)
 2. [Structuri lexiale](oop-basic/01-structuri-lexicale.md)
 3. [Structuri repetitive și condiționale](oop-basic/02-structuri-repetitive-conditionale.md)
 4. [Tipuri primitive de date și array-uri](oop-basic/03-tipuri-primitive.md)

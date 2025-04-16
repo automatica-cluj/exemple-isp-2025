@@ -1,4 +1,4 @@
-# Introducere în tipuri primitive de date și array-uri în Java
+# Tipuri Primitive de Date și Array-uri în Java
 
 ## Tipuri primitive de date în Java
 
