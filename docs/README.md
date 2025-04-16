@@ -14,7 +14,7 @@ title: Ingineria Sistemelor de Programe
 
 Această pagină oferă acces la documentația suplimentară aferente cursurilor Ingineria Sistemelor de Programe (ISP) Seria B si Satu-Mare. 
 
-Site-ul este generată utilizând platforma **GitBook** și se bazează pe conținutul și exemplele disponibile în repository-ul oficial al cursului:  
+Site-ul este generat utilizând platforma **GitBook** și se bazează pe conținutul și exemplele disponibile în repository-ul oficial al cursului:  
 👉 [https://github.com/automatica-cluj/exemple-isp-2025](https://github.com/automatica-cluj/exemple-isp-2025)
 
 Pentru utilizatori există trei modalități de accesare a conținutului:
