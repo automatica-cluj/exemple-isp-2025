@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Cuprins](README.md)
-* [Concepte fundamentale](oop-basic/README.md)
+* [Concepte Fundamentale](oop-basic/README.md)
   * [Introducere în Structurile Lexicale în Java](oop-basic/01-structuri-lexicale.md)
   * [Introducere în Structuri Repetitive și Condiționale în Java](oop-basic/02-structuri-repetitive-conditionale.md)
   * [Introducere în tipuri primitive de date și array-uri în Java](oop-basic/03-tipuri-primitive.md)
@@ -10,7 +10,7 @@
   * [Concepte fundamentale Java: Pachete, Import și Classpath](oop-basic/06-pachete-si-librarii.md)
   * [Fișierele JAR (Java Archive)](oop-basic/07-fisiere-jar.md)
   * [Documentație: Concepte Avansate în Programarea Orientată pe Obiecte](oop-basic/08-concepte-avansate-oop.md)
-* [Concepte avansate](oop-advanced/README.md)
+* [Concepte Avansate](oop-advanced/README.md)
   * [Documentație: Concepte Avansate în Java](oop-advanced/01-interfete-clase-abstracte.md)
   * [Documentație: Tipuri Generice (Generics) în Java](oop-advanced/02-tipuri-generice.md)
   * [Documentație: Optional în Java - O soluție pentru problema valorilor null](oop-advanced/03-optional-si-null.md)
