@@ -1,4 +1,4 @@
-# Concepte fundamentale Java: Pachete, Import și Classpath
+# Pachete, Import și Classpath
 
 ## Pachete (Packages) în Java
 

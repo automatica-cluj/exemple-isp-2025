@@ -1,2 +1,2 @@
-# oop-design
+# Sabloane de Proiectare
 

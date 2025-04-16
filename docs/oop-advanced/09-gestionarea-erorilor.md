@@ -1,4 +1,4 @@
-# Gestionarea Erorilor și Excepțiilor în Java - Ghid Complet
+# Gestionarea Erorilor și Excepțiilor
 
 ## Cuprins
 1. [Introducere în Gestionarea Erorilor](#introducere-în-gestionarea-erorilor)

@@ -1,4 +1,4 @@
-# Expresii Lambda în Java - Ghid Complet
+# Expresii Lambda
 
 ## Cuprins
 1. [Introducere în Expresii Lambda](#introducere-în-expresii-lambda)

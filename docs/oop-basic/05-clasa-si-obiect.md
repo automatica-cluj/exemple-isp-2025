@@ -1,4 +1,4 @@
-# Clasa si obiect, concepte de baza
+# Clasa si Obiect, Concepte de Baza
 
 ## Cuprins
 1. [Clasa și Obiect](#clasa-și-obiect)
