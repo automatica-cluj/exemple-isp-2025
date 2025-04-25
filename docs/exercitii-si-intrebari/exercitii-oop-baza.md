@@ -1,4 +1,4 @@
-# Exerciții și întrebări pentru validarea cunoștințelor OOP de baza
+# Exerciții și întrebări - concepte OOP de baza
 
 ## 1. Clasa și Obiect
 **Exercițiu:**

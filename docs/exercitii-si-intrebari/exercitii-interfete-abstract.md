@@ -1,4 +1,4 @@
-# Exerciții și întrebări pentru validarea cunoștințelor avansate Java
+# Exerciții și întrebări - interfețe și clase abstracte
 
 ## 1. Enum
 **Întrebare:**

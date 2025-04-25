@@ -1,4 +1,4 @@
-# Exerciții și întrebări pentru validarea cunoștințelor OOP avansate
+# Exerciții și întrebări - concepte avansate
 
 ## 1. Agregarea și Compoziția
 **Întrebare:**

@@ -44,9 +44,14 @@ title: Ingineria Sistemelor de Programe
 1. [Gestionarea erorilor](oop-advanced/09-gestionarea-erorilor.md)
 2. [Try with resources](oop-advanced/08-try-with-resources.md)
 
-🔧 Alte concepte
+🔧 Interfete grafice
 
-1. TODO
+1. [Introducere Swing](ui-swing/01-ui-introducere.md)
+2. [Lucrul cu tabele](ui-swing/02-ui-tabele.md)
+3. [Lucrul cu liste de elemente grafice](ui-swing/03-lists.md)
+4. [Exemplu simplu](ui-swing/04-exemmplu-simplu-complet.md)
+5. [Exemplu simplu cu scriere in fisier](ui-swing/05-exemplu-scrie-fisier.md)
+6. [Sablonul de proiectare MVC](ui-swing/06-mvc.md)
 
 ***
 
