@@ -313,7 +313,7 @@ SwingUtilities.invokeLater(() -> {
 });
 ```
 
-### 8. Gestionarea Aspectelor Avansate (Opțional)
+### 8. Gestionarea Aspectelor Avansate
 
 Pentru interfețe mai complexe, puteți adăuga funcționalități suplimentare:
 
@@ -340,80 +340,6 @@ frame.setJMenuBar(menuBar);
 submitButton.setMnemonic(KeyEvent.VK_S); // Alt+S activează butonul
 ```
 
-## Componente Swing de Bază
-
-### JFrame
-Fereastra principală a aplicației:
-```java
-JFrame frame = new JFrame("Titlul ferestrei");
-frame.setSize(800, 600);
-frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-frame.setVisible(true);
-```
-
-### JPanel
-Container pentru organizarea componentelor:
-```java
-JPanel panel = new JPanel();
-panel.setLayout(new FlowLayout());
-frame.add(panel);
-```
-
-### JLabel
-Afișează text sau imagini:
-```java
-JLabel label = new JLabel("Aceasta este o etichetă");
-panel.add(label);
-```
-
-### JButton
-Buton care poate fi apăsat:
-```java
-JButton button = new JButton("Apasă-mă");
-button.addActionListener(new ActionListener() {
-    public void actionPerformed(ActionEvent e) {
-        System.out.println("Butonul a fost apăsat!");
-    }
-});
-panel.add(button);
-```
-
-### JTextField
-Câmp pentru introducerea textului:
-```java
-JTextField textField = new JTextField(20); // 20 coloane
-panel.add(textField);
-```
-
-### JCheckBox
-Casetă de selectare:
-```java
-JCheckBox checkBox = new JCheckBox("Activează opțiunea");
-panel.add(checkBox);
-```
-
-### JRadioButton
-Buton radio (permite o singură selecție din grup):
-```java
-JRadioButton radio1 = new JRadioButton("Opțiunea 1");
-JRadioButton radio2 = new JRadioButton("Opțiunea 2");
-
-// Gruparea butoanelor radio
-ButtonGroup group = new ButtonGroup();
-group.add(radio1);
-group.add(radio2);
-
-panel.add(radio1);
-panel.add(radio2);
-```
-
-### JComboBox
-Listă derulantă:
-```java
-String[] opțiuni = {"Opțiunea 1", "Opțiunea 2", "Opțiunea 3"};
-JComboBox<String> comboBox = new JComboBox<>(opțiuni);
-panel.add(comboBox);
-```
 
 ## Sfaturi și Bune Practici
 

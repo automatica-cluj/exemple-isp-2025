@@ -47,10 +47,10 @@ title: Ingineria Sistemelor de Programe
 🔧 Interfete grafice
 
 1. [Introducere Swing](ui-swing/01-ui-introducere.md)
-2. [Lucrul cu tabele](ui-swing/02-ui-tabele.md)
+2. [Exemplu simplu](ui-swing/04-exemmplu-simplu-complet.md)
+3. [Exemplu simplu cu scriere in fisier](ui-swing/05-exemplu-scrie-fisier.md)
+4. [Lucrul cu tabele](ui-swing/02-ui-tabele.md)
 3. [Lucrul cu liste de elemente grafice](ui-swing/03-lists.md)
-4. [Exemplu simplu](ui-swing/04-exemmplu-simplu-complet.md)
-5. [Exemplu simplu cu scriere in fisier](ui-swing/05-exemplu-scrie-fisier.md)
 6. [Sablonul de proiectare MVC](ui-swing/06-mvc.md)
 
 ***
