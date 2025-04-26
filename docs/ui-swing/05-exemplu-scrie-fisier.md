@@ -1,6 +1,6 @@
 # Aplicație Java Swing pentru adăugarea textului în fișier și afișarea conținutului
 
-Această documentație descrie o aplicație Java Swing care permite utilizatorului să introducă text într-un TextField, să specifice numele unui fișier, și să adauge textul respectiv în fișier prin apăsarea unui buton. În plus, fiecare linie adăugată este afișată într-un TextArea.
+Această aplicație permite utilizatorului să introducă text într-un TextField, să specifice numele unui fișier, și să adauge textul respectiv în fișier prin apăsarea unui buton. În plus, fiecare linie adăugată este afișată într-un TextArea.
 
 ## Structura aplicației
 
