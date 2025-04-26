@@ -101,6 +101,8 @@ public class ExempluTabelArrayList {
 }
 ```
 
+![img.png](img.png)
+
 ### Abordarea 2: Crearea unui TableModel personalizat
 
 Această abordare este puțin mai complexă, dar oferă un control mai mare asupra modului în care datele sunt afișate:
@@ -181,99 +183,6 @@ public class ExempluTabelArrayListPersonalizat {
                 default: return Object.class;
             }
         }
-    }
-}
-```
-
-## Exemplu complet și funcțional
-
-Iată un exemplu complet și funcțional care poate fi copiat și rulat direct:
-
-```java
-import javax.swing.*;
-import javax.swing.table.*;
-import java.awt.*;
-import java.util.ArrayList;
-
-public class AfisareArrayListInTabel {
-    
-    // Clasa pentru datele noastre
-    static class Persoana {
-        private String nume;
-        private int varsta;
-        private String profesie;
-        
-        public Persoana(String nume, int varsta, String profesie) {
-            this.nume = nume;
-            this.varsta = varsta;
-            this.profesie = profesie;
-        }
-        
-        public String getNume() {
-            return nume;
-        }
-        
-        public int getVarsta() {
-            return varsta;
-        }
-        
-        public String getProfesie() {
-            return profesie;
-        }
-    }
-    
-    public static void main(String[] args) {
-        // Rulăm interfața grafică într-un thread separat pentru a evita blocări
-        SwingUtilities.invokeLater(() -> {
-            createAndShowGUI();
-        });
-    }
-    
-    private static void createAndShowGUI() {
-        // Crearea și popularea ArrayList-ului
-        ArrayList<Persoana> listaPersone = new ArrayList<>();
-        listaPersone.add(new Persoana("Ion Popescu", 25, "Inginer"));
-        listaPersone.add(new Persoana("Maria Ionescu", 30, "Profesor"));
-        listaPersone.add(new Persoana("Andrei Vasilescu", 28, "Medic"));
-        listaPersone.add(new Persoana("Elena Dumitrescu", 35, "Avocat"));
-        listaPersone.add(new Persoana("Mihai Stanescu", 40, "Programator"));
-        
-        // Definirea numelor coloanelor
-        String[] numeColoane = {"Nume", "Vârstă", "Profesie"};
-        
-        // Crearea modelului de tabel
-        DefaultTableModel model = new DefaultTableModel(numeColoane, 0);
-        
-        // Popularea modelului cu date din ArrayList
-        for (Persoana persoana : listaPersone) {
-            Object[] rand = {
-                persoana.getNume(),
-                persoana.getVarsta(),
-                persoana.getProfesie()
-            };
-            model.addRow(rand);
-        }
-        
-        // Crearea tabelului cu modelul de date
-        JTable tabel = new JTable(model);
-        
-        // Adăugarea tabelului într-un JScrollPane pentru a permite derularea
-        JScrollPane scrollPane = new JScrollPane(tabel);
-        
-        // Crearea etichetei cu titlu
-        JLabel labelTitlu = new JLabel("Lista de Persoane", SwingConstants.CENTER);
-        labelTitlu.setFont(new Font("Arial", Font.BOLD, 16));
-        labelTitlu.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0));
-        
-        // Crearea și configurarea ferestrei
-        JFrame fereastra = new JFrame("Afișare ArrayList în JTable");
-        fereastra.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        fereastra.setLayout(new BorderLayout());
-        fereastra.add(labelTitlu, BorderLayout.NORTH);
-        fereastra.add(scrollPane, BorderLayout.CENTER);
-        fereastra.setSize(500, 300);
-        fereastra.setLocationRelativeTo(null);  // Centrarea ferestrei pe ecran
-        fereastra.setVisible(true);
     }
 }
 ```

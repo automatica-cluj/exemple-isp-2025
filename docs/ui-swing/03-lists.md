@@ -464,6 +464,7 @@ public class ComponenteCombinate {
     }
 }
 ```
+![img_1.png](img_1.png)
 
 Acest exemplu creează un formular de comandă simplu, care utilizează:
 - Un `JList` pentru selectarea produselor

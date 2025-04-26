@@ -116,3 +116,4 @@ public class ExempluSwing extends JFrame {
     }
 }
 ```
+![img_2.png](img_2.png)
