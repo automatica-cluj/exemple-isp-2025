@@ -102,7 +102,9 @@ title: Ingineria Sistemelor de Programe
 
 ### Librarii, framwork-uri si tool-uri
 
-1. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
+1. [Github Actions](tools-basic/github-actions.md)
+2. [Masini virtual (VMs) in Azure Cloud](tools-basic/azure-resources.md)
+3. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
 2. [Introducere în Maven](tools-basic/introducere-maven.md)
 3. [Libraria Lombok](tools-basic/limbraria-lombok.md)
 4. [Github actions](tools-basic/github-actions.md)

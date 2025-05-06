@@ -48,6 +48,7 @@
   * [Documentație Diagrame UML de Stare (State Machine)](uml/08-state-diagrams.md)
 * [Unelte](tools-basic/README.md)
   * [GitHub Actions](tools-basic/github-actions.md)
+  * [Creare VM in Azure](tools-basic/azure-resources.md)
   * [Git: Esențial în Dezvoltarea Software Modernă](tools-basic/introducere-git.md)
   * [Introducere în Maven](tools-basic/introducere-maven.md)
   * [Librăria Lombok](tools-basic/limbraria-lombok.md)
