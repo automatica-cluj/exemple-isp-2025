@@ -53,6 +53,12 @@ title: Ingineria Sistemelor de Programe
 3. [Lucrul cu liste de elemente grafice](ui-swing/03-lists.md)
 6. [Sablonul de proiectare MVC](ui-swing/06-mvc.md)
 
+🔀 Fire de executie
+1. [Introducere in firele de executie](concurrent/colectii-thread-safe.md)
+2. [Colectii thread-safe si blocking](concurrent/colectii-thread-safe.md)
+3. [Tipuri atomice](concurrent/tipuri-atomice.md)
+4. [Fire de executie virtuale](concurrent/virtual-threads.md)
+
 ***
 
 ### Unified Modeling Language (UML)

@@ -22,7 +22,7 @@ public class TemperatureSensorT extends Thread {
     public TemperatureSensorT(String id) {
         this.sensorId = id;
         this.setName("Thread-Sensor-id-"+sensorId); //optional putem seta numele unui thread
-        setDaemon(true);
+        //setDaemon(true);
     }
     
     public void run(){

@@ -27,7 +27,7 @@ class FirGet extends Thread {
         int i=0;
         int a,b;
         while(++i<150000){         
-          //  synchronized(p){ //blocare firului apelat daca lockul obiectului p este deja detinut de alt fir 
+            synchronized(p){ //blocare firului apelat daca lockul obiectului p este deja detinut de alt fir 
                 a= p.getX();          
                 try {
                     sleep(50);
@@ -35,12 +35,12 @@ class FirGet extends Thread {
                     e.printStackTrace();
                 }         
                 b = p.getY();
-           // }//....
+            }//....
             System.out.println("Am citit: ["+a+","+b+"]");
         }
     }
 }//.class
- 
+ //////////////////////////////////////////////////////////////////////////
  
 class FirSet extends Thread {
     Punct p;
@@ -53,7 +53,7 @@ class FirSet extends Thread {
             int a = (int)Math.round(10*Math.random()+10);
             int b = (int)Math.round(10*Math.random()+10);
  
-          //  synchronized(p){ ///////
+            synchronized(p){ ///////
                 p.setXY(a,b);
             
                 
@@ -63,7 +63,7 @@ class FirSet extends Thread {
 
                     e.printStackTrace();
                 
-           //  }  
+             }  
             }
                 System.out.println("Am scris: ["+a+","+b+"]");
         }

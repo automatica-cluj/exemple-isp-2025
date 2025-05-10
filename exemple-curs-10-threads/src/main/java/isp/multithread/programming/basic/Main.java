@@ -20,11 +20,11 @@ public class Main {
         /////////////////
         
         Thread r1 = new Thread(new TemperatureSensorR("SR1"));
-        r1.setDaemon(true);
+       // r1.setDaemon(true);
         Thread r2 = new Thread(new TemperatureSensorR("SR1"));
-        r2.setDaemon(true);
+       // r2.setDaemon(true);
         Thread r3 = new Thread(new TemperatureSensorR("SR1"));
-        r3.setDaemon(true);
+       // r3.setDaemon(true);
         
         r1.start();
         r2.start();
@@ -36,7 +36,7 @@ public class Main {
 //       t2.stopActivity();
 //       t3.stopActivity();
 //       
-//       t1.join();
+      //t1.join();
 //       t2.join();
 //       t3.join();
 //       r1.join();
