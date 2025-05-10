@@ -178,21 +178,134 @@ synchronized(obiect) {
 
 Fiecare obiect în Java are un monitor (sau zăvor) asociat. Când un fir accesează o metodă sau un bloc sincronizat, acesta obține monitorul obiectului. Alte fire care încearcă să acceseze metode sincronizate ale aceluiași obiect vor fi blocate până când monitorul este eliberat.
 
+```java
+public class TestSincronizare {
+public static void main(String[] args) {
+    Punct p = new Punct();
+    FirSet fs1 = new FirSet(p);
+    FirGet fg1 = new FirGet(p);
+ 
+    fs1.start();
+    fg1.start();
+}
+}
+ 
+class FirGet extends Thread {
+    Punct p;
+ 
+    public FirGet(Punct p){
+        this.p = p;
+    }
+ 
+    public void run(){
+        int i=0;
+        int a,b;
+        while(++i<15){         
+           // synchronized(p){
+            a= p.getX();          
+            try {
+                sleep(50);
+            } catch (InterruptedException e) {  
+                e.printStackTrace();
+            }         
+            b = p.getY();
+           // }
+            System.out.println("Am citit: ["+a+","+b+"]");
+        }
+    }
+}//.class
+ 
+ 
+class FirSet extends Thread {
+    Punct p;
+    public FirSet(Punct p){
+        this.p = p;
+    } 
+    public void run(){
+        int i =0;
+        while(++i<15){
+            int a = (int)Math.round(10*Math.random()+10);
+            int b = (int)Math.round(10*Math.random()+10);
+ 
+            //synchronized(p){
+            p.setXY(a,b);
+            // }
+ 
+            try {
+                sleep(10);
+            } catch (InterruptedException e) {
+ 
+                e.printStackTrace();
+            }
+            System.out.println("Am scris: ["+a+","+b+"]");
+        }
+    }
+}//.class
+ 
+class Punct {
+    int x,y;
+    public void setXY(int a,int b){
+        x = a;y = b;
+    }  
+    public int getX(){return x;}
+    public int getY(){return y;}   
+}
+```
+
 ### Interblocaje (Deadlocks)
 
 Folosirea necorespunzătoare a blocurilor sincronizate poate duce la situații de interblocaj, când două sau mai multe fire sunt blocate, fiecare așteptând după celălalt să elibereze un monitor.
 
 ```java
 // Exemplu de cod care poate genera un interblocaj
-public synchronized void proceseazaPiesa(Robot r) {
-    System.out.println(name + " procesează piesa ");
-    piesa.procesare();
-    r.primestePiesa(this);  // Apelează o metodă sincronizată a celuilalt robot
+public class Deadlock {
+
+    public static void main(String[] args) {
+        final Robot alphonse = new Robot("Alphonse");
+        final Robot gaston = new Robot("Gaston");
+        new Thread(new Runnable() {
+            public void run() { alphonse.proceseazaPiesa(gaston); }
+        }).start();
+        new Thread(new Runnable() {
+            public void run() { gaston.proceseazaPiesa(alphonse); }
+        }).start();
+    }
 }
 
-public synchronized void primestePiesa(Robot r) {
-    System.out.println(r.getName() + " a transmis piesa către " + name);
-    this.piesa = r.getPiesa();
+class Robot {
+    private final String name;
+    Piesa piesa;
+    public Robot(String name) {
+        this.name = name;
+        this.piesa = new Piesa();
+    }
+    public String getName() {
+        return this.name;
+    }
+    public synchronized void proceseazaPiesa(Robot r) {
+        System.out.println(name+" proceseaza piesa ");
+        piesa.procesare();
+        r.primestePiesa(this);
+    }
+    public synchronized void primestePiesa(Robot r) {
+        System.out.println(r.getName()+ " a transmis piesa catre "+name);
+        this.piesa = r.getPiesa();
+    }
+
+    private Piesa getPiesa() {
+        return piesa;
+    }
+}
+
+class Piesa{
+    public void procesare(){
+        System.out.println("Piesa se proceseaza");
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
 ```
 
@@ -228,23 +341,114 @@ synchronized void push(double d) {
 Problema producător-consumator este un exemplu clasic de sincronizare între fire:
 
 ```java
-class Buffer {
-    ArrayList content = new ArrayList();
-    
-    synchronized void push(double d) {
-        content.add(new Double(d));
-        notify();  // Anunță consumatorii că există un element nou
+public class Test {
+    public static void main(String[] args){
+        Buffer b = new Buffer();
+        Producer pro = new Producer(b);
+        Consumer c = new Consumer(b);
+        Consumer c2 = new Consumer(b);
+        //Lanseaza cele 3 fire de executie. Se observa ca cele 3 fire de executie
+        // folosesc in comun obiectul b de tip Buffer. Exista un fir pro ce este
+        // responsabil cu adaugarea de elemente in buffer si doua obiecte
+        // responsabile cu extragerea elementelor din buffer.
+        pro.start();
+        c.start();
+        c2.start();
     }
-    
-    synchronized double get() {
-        double d = -1;
-        try {
-            while(content.size() == 0) wait();  // Așteaptă dacă buffer-ul este gol
-            d = ((Double)content.get(0)).doubleValue();
-            content.remove(0);
-        } catch(Exception e) {
-            e.printStackTrace();
+}
+
+/**
+ * Aceasta este o clasa de tip fir de executie. In cadrul unei bucle infinite sunt
+ * generate numere de tip double si sunt adaugate in cadrul unui obiect de tip Buffer
+ * apeland metoda put. Aduagare elementelor se face la intervale de 1 secunda.
+ *
+ */
+class Producer implements Runnable
+{
+    private Buffer bf;
+    private Thread thread;
+    Producer(Buffer bf){this.bf=bf;}
+
+    public void start()
+    {
+        if (thread==null)
+        {
+            thread = new Thread(this);
+            thread.start();
         }
+    }
+
+    public void run()
+    {
+        while (true)
+        {
+            bf.push(Math.random());
+            System.out.println("Am scris.");
+            try
+            {Thread.sleep(1000);}catch(Exception e){}
+        }
+    }
+}
+
+/**
+ * Aceasta este o clasa de tip fir de executie. Intr-o bucla infinita sunt citite elemente
+ * din cadrul unui obiect de tip Buffer.
+ */
+
+class Consumer extends Thread
+{
+    private Buffer bf;
+    Consumer(Buffer bf){this.bf=bf;}
+
+    public void run()
+    {
+        while (true)
+        {
+            System.out.println("Am citit : "+this+" >> "+bf.get());
+        }
+    }
+}
+
+class Buffer
+{
+    /*
+     * Vector folosit pentru a inmagazina obiecte de tip Double.
+     */
+    ArrayList content = new ArrayList();
+
+    /**
+     * Prin intermediul acestei metode sunt adaugate elemente in containerul content.
+     * Se observa ca aceasta metoda este sincronizata. Metoda fa fi apelata de firele
+     * de executie de tip Producer.
+     *
+     * Dupa adaugarea unui element in container se apeleaza metoda notify() aceasta asigura
+     * trezirea unui fir de executie ce a fost blocat prin apelul functiei wait().
+     * @param d
+     */
+    synchronized void push(double d)
+    {
+        content.add(new Double(d));
+        notify();
+    }
+
+    /**
+     * Aceasta metoda este folosita pentru a extrage elemente din cadrul containerului
+     * content. Se observa ca aceasta metoda este sincronizata.
+     * Daca containerul este  gol se apeleaza metoda wait(). Aceasta va bloca firul
+     * de executie apelant pana in momentul in care un fir de executie producator
+     * va adauga in container un element si va apela metoda notify() (vezi metoda put(...))
+     *
+     * @return
+     */
+    synchronized double get()
+    {
+        double d=-1;
+        try
+        {
+            while(content.size()==0) wait();
+            d = (((Double)content.get(0))).doubleValue();
+            content.remove(0);
+        }catch(Exception e){e.printStackTrace();}
         return d;
     }
 }
@@ -309,12 +513,6 @@ Librăria oferă primitive de sincronizare mai flexibile:
 - `Semaphore` - controlează accesul la resurse limitate
 - `ReadWriteLock` - permite accesul concurent pentru citire, dar exclusiv pentru scriere
 
-```java
-CountDownLatch latch = new CountDownLatch(3);
-// Fire care apelează latch.countDown() când termină
-latch.await(); // Așteaptă până când toate cele 3 fire termină
-```
-
 #### 5. Atomic Variables
 
 Clase pentru operații atomice pe variabile, fără a fi nevoie de blocuri synchronized:
@@ -337,8 +535,7 @@ counter.incrementAndGet(); // Operație atomică (thread-safe)
 ## Recomandări finale
 
 1. Evitați utilizarea metodelor deprecated precum `stop()` și `suspend()`
-2. Folosiți terminarea normală a firelor prin ieșirea din metoda `run()`
+2. Folosiți terminarea normală a firelor prin ieșirea din metoda `run()` si nu folosiți `stop()`
 3. Fiți atenți la potențialele interblocaje când folosiți blocuri sincronizate
 4. Testați aplicațiile multi-threading în diverse condiții, deoarece comportamentul poate varia
 5. Pentru aplicații moderne, preferați clasele din pachetul `java.util.concurrent` în locul mecanismelor primitive
-6. Începeți cu conceptele de bază prezentate în acest document înainte de a trece la API-urile avansate
