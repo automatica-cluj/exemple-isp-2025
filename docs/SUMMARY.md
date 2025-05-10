@@ -23,7 +23,7 @@
   * [Gestionarea Erorilor și Excepțiilor în Java - Ghid Complet](oop-advanced/09-gestionarea-erorilor.md)
   * [Adnotările](oop-advanced/10-adnotarile.md)
 * [Programare Concurentă](concurrent/README.md)
-  * [Firele de execuție](concurrent/colectii-thread-safe.md)
+  * [Firele de execuție](concurrent/fire-de-executie.md)
   * [Colectii thread-safe si blocking](concurrent/colectii-thread-safe.md)
   * [Tipuri atomice](concurrent/tipuri-atomice.md)
   * [Fire de execuție virtuale](concurrent/virtual-threads.md)
