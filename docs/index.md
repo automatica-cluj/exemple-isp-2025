@@ -22,6 +22,7 @@ title: Ingineria Sistemelor de Programe
 3. [Fisiere Jar](oop-basic/07-fisiere-jar.md)
 4. [Agregarea, compozitia si mostenirea](oop-basic/08-concepte-avansate-oop.md)
 5. [Clase abstracte si interfete](oop-advanced/01-interfete-clase-abstracte.md)
+6. [Clasa Object](oop-basic/09-clasa-Object.md)
 
 ### Concepte avansate OOP
 
