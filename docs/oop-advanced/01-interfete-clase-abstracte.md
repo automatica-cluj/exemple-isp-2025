@@ -1,4 +1,4 @@
-# Documentație: Concepte Avansate în Java
+# Interfete si Clase Abstracte
 
 ## Cuprins
 1. [Enum](#enum)

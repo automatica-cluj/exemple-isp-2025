@@ -1,4 +1,4 @@
-# Colecții de obiecte
+# Colecții de Obiecte
 
 ## Cuprins
 1. [Introducere în Colecții](#introducere-în-colecții)

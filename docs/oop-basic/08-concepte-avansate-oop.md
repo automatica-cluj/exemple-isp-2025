@@ -1,4 +1,4 @@
-# Documentație: Concepte Avansate în Programarea Orientată pe Obiecte
+# Agregarea, Compoziția și Moștenirea
 
 ## Cuprins
 1. [Agregarea și Compoziția](#agregarea-și-compoziția)
