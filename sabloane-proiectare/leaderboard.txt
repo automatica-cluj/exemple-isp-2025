@@ -1,0 +1,5 @@
+dan:3
+alex:6
+Bob:3
+mihai:0
+Alice:5
