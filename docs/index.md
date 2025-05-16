@@ -112,6 +112,7 @@ title: Ingineria Sistemelor de Programe
 1. [Github Actions](tools-basic/github-actions.md)
 2. [Masini virtual (VMs) in Azure Cloud](tools-basic/azure-resources.md)
 3. [Containere Docker](tools-basic/containere-docker.md)
+4. [Azure Container Apps](tools-basic/azure-application-container.md)
 3. [Versionarea aplicatiilor utilizand Git](tools-basic/introducere-git.md)
 2. [Introducere în Maven](tools-basic/introducere-maven.md)
 3. [Libraria Lombok](tools-basic/limbraria-lombok.md)
