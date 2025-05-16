@@ -16,33 +16,34 @@ Azure Container Apps este un serviciu serverless complet gestionat de Microsoft 
 
 În secțiunile următoare, vom prezenta abordarea pentru implementarea unei aplicații în Azure Container Apps utilizând GitHub Actions pentru CI/CD și Docker pentru containerizare. Vom analiza un exemplu concret al unei aplicații de tip quiz, detaliind fluxul complet de la build până la deploy în Azure.
 
-Aplicatia este disponibila de asemenea si [aici](https://github.com/automatica-cluj/isp-quiz-game) 
+Aplicația este disponibilă și pe [GitHub](https://github.com/automatica-cluj/isp-quiz-game).
 
+## Cerințe preliminare
+
+Implementarea descrisă mai jos se bazează pe următoarele dependențe și presupuneri:
+- Aplicația este încărcată într-un repository GitHub public (funcționează și în varianta cu repository privat, dar în acest caz intervin mici modificări în comanda de lansare în execuție a containerului)
+- Utilizatorul are un cont Azure activ cu o subscriere activă (pentru Universitatea Tehnică din Cluj-Napoca, contul Azure este disponibil pentru studenți)
+- Utilizatorul are instalat Azure CLI pe calculatorul local
+
+Dacă doriți să replicați pașii, puteți crea un fork al repository-ului în contul vostru de GitHub. Atenție la eventuale "hardcodări" prezente în repository-ul original cu referire la contul 'automatica-cluj'.
 
 ## Arhitectura aplicației
 
 Aplicația de exemplu este un joc de tip quiz unde utilizatorul are un timp limitat pentru a răspunde la întrebări. Jocul se încheie când utilizatorul greșește sau când timpul expiră.
 
-Aplicația de quiz prezentată în această documentație este în mod intenționat simplificată din perspectiva persistenței datelor. În loc să utilizeze un sistem de persistență complex și scalabil, cum ar fi o bază de date relațională (MySQL, PostgreSQL) sau NoSQL (MongoDB, Cosmos DB), aplicația folosește fișiere text simple pentru stocarea informațiilor.
+### Notă privind persistența datelor
 
-Această abordare are următoarele implicații:
+Aplicația de quiz prezentată este în mod intenționat simplificată din perspectiva persistenței datelor. În loc să utilizeze un sistem de persistență complex și scalabil, cum ar fi o bază de date relațională (MySQL, PostgreSQL) sau NoSQL (MongoDB, Cosmos DB), aplicația folosește fișiere text simple pentru stocarea informațiilor:
 
 1. **Întrebările quiz-ului** sunt încărcate din fișierul `questions.txt` amplasat în resursele aplicației
 2. **Clasamentul jucătorilor** este stocat în fișierul `leaderboard_data.txt`
 3. **Datele completate** ale quiz-urilor finalizate sunt gestionate în memorie cu backup în fișierele text
 
-Este important de menționat că această arhitectură simplificată este adecvată pentru un mediu demonstrativ sau educațional, dar nu ar fi recomandată pentru o aplicație de producție cu multe date sau mulți utilizatori concurenți. Într-un scenariu real, ar trebui:
-
-- Implementată o bază de date adecvată (SQL sau NoSQL)
-- Adăugate mecanisme de caching pentru performanță
-- Implementate strategii de backup și recuperare
-- Configurată o scalare corectă a layer-ului de persistență
-
-Această simplificare a fost aleasă pentru a păstra focusul pe demonstrarea conceptelor de containerizare, CI/CD și deployment în Azure Container Apps, fără a complica arhitectura cu aspecte ce țin de persistența datelor.
+Această simplificare a fost aleasă pentru a păstra focusul pe demonstrarea conceptelor de containerizare, CI/CD și deployment în Azure Container Apps, fără a complica arhitectura cu aspecte ce țin de persistența datelor. Într-un scenariu real de producție, ar fi necesare soluții de persistență mai robuste.
 
 ### Structura generală
 
-- **Backend**: Aplicația este construită cu Java 21 utilizând framework-ul Spring Boot, punctul principal de intrare fiind clasa `QuizApplication.java`.
+- **Backend**: Aplicația este construită cu Java 21 utilizând framework-ul Spring Boot, punctul principal de intrare fiind clasa `QuizApplication.java`
 - **Pattern MVC**: Proiectul urmează modelul Model-View-Controller:
     - **Model**: Clase precum `Question`, `QuizGame` și `User` reprezintă structurile de date principale
     - **View**: Template-uri HTML (ex. `index.html`, `quiz.html`, `gameOver.html`) pentru interfața utilizator
@@ -50,7 +51,7 @@ Această simplificare a fost aleasă pentru a păstra focusul pe demonstrarea co
 - **Servicii**: Componente precum `QuizSessionService`, `Leaderboard` și `QuestionLoader` încapsulează logica de business
 - **Persistență**: Întrebările și datele clasamentului sunt stocate în fișiere text
 
-### Construcție și deployment
+### Tehnologii de construcție și deployment
 
 - **Maven**: Utilizat pentru construirea proiectului și gestionarea dependențelor
 - **Docker**: Folosit pentru containerizare
@@ -59,14 +60,7 @@ Această simplificare a fost aleasă pentru a păstra focusul pe demonstrarea co
 
 ## Proces de implementare în Azure Container Apps
 
-Secțiunea de mai jos descrie pașii necesari pentru containerizarea și rularea aplicației în Azure Container Apps și se bazează pe următoarele dependențe și presupuneri:
-- Aplicația este încărcată într-un repository GitHub public (funcționează și în varianta cu repository privat, dar în acest caz intervin mici modificări în comanda de lansare în execuție a containerului)
-- Utilizatorul are un cont Azure activ cu o subscriere activă (pentru Universitatea Tehnică din Cluj-Napoca, contul Azure este disponibil pentru studenți)
-- Utilizatorul are instalat Azure CLI pe calculatorul local
-
-Detalierea pașilor de implementare este prezentată în secțiunea de mai jos, dar aceștia sunt disponibili și în repository-ul Git aferent aplicației [aici](https://github.com/automatica-cluj/isp-quiz-game).
-
-Dacă doriți să replicați pașii, puteți crea un fork al repository-ului în contul vostru de GitHub. Atenție la eventuale "hardcodări" prezente în repository-ul original cu referire la contul 'automatica-cluj'.
+Pentru inceput compilam si rula aplicatia local pentru a o testa. 
 
 ### 1. Construirea aplicației cu Maven
 
@@ -85,6 +79,8 @@ docker compose up --build
 ```
 
 După executarea acestei comenzi, aplicația este disponibilă la adresa [http://localhost:8888](http://localhost:8888).
+
+In continuare vom instala aplicatia in Azure Container Apps.
 
 ### 3. Automatizare CI/CD cu GitHub Actions
 
