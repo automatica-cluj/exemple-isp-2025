@@ -16,7 +16,7 @@ Azure Container Apps este un serviciu serverless complet gestionat de Microsoft 
 
 În secțiunile următoare, vom prezenta abordarea pentru implementarea unei aplicații în Azure Container Apps utilizând GitHub Actions pentru CI/CD și Docker pentru containerizare. Vom analiza un exemplu concret al unei aplicații de tip quiz, detaliind fluxul complet de la build până la deploy în Azure.
 
-Aplicatia este disponibila de asemenea si github [aici](https://github.com/automatica-cluj/isp-quiz-game) 
+Aplicatia este disponibila de asemenea si [aici](https://github.com/automatica-cluj/isp-quiz-game) 
 
 
 ## Arhitectura aplicației
@@ -64,7 +64,7 @@ Secțiunea de mai jos descrie pașii necesari pentru containerizarea și rularea
 - Utilizatorul are un cont Azure activ cu o subscriere activă (pentru Universitatea Tehnică din Cluj-Napoca, contul Azure este disponibil pentru studenți)
 - Utilizatorul are instalat Azure CLI pe calculatorul local
 
-Detalierea pașilor de implementare este prezentată în secțiunea de mai jos, dar aceștia sunt disponibili și în repository-ul Git aferent aplicației aici: https://github.com/automatica-cluj/isp-quiz-game
+Detalierea pașilor de implementare este prezentată în secțiunea de mai jos, dar aceștia sunt disponibili și în repository-ul Git aferent aplicației [aici](https://github.com/automatica-cluj/isp-quiz-game).
 
 Dacă doriți să replicați pașii, puteți crea un fork al repository-ului în contul vostru de GitHub. Atenție la eventuale "hardcodări" prezente în repository-ul original cu referire la contul 'automatica-cluj'.
 
