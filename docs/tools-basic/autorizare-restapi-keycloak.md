@@ -1,6 +1,6 @@
 # Keycloak pentru Autentificare și Autorizare REST API
 
-## Ce este Keycloak?
+## Introducere
 
 **Keycloak** este o soluție open-source de Identity and Access Management (IAM) dezvoltată de Red Hat. Oferă servicii complete de autentificare și autorizare pentru aplicații moderne, implementând standardele OAuth2, OpenID Connect și SAML.
 
@@ -113,18 +113,13 @@ public class SecureController {
 }
 ```
 
-## Testarea Implementării
+## Proiect Demonstrativ
 
 Pentru a testa efectiv utilizarea Keycloak cu REST API-uri, consultați repository-ul demonstrativ care conține:
 
 - Configurare completă Keycloak cu Docker Compose
-- Implementare Spring Boot cu OAuth2 Resource Server
+- Implementare REST API cu Spring Boot
 - Exemple de testare cu curl și Swagger UI
 - Documentație detaliată pentru setup și configurare
 
-## Resurse Suplimentare
-
-[Repository](https://github.com/automatica-cluj/demo-springboot-keycloak) 
-
-
-Acest repository oferă un exemplu minimal complet și funcțional de integrare Keycloak cu un REST API.
+[Link Repository](https://github.com/automatica-cluj/demo-springboot-keycloak)
