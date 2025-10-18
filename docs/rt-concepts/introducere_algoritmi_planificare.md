@@ -116,14 +116,6 @@ Combină **principiile algoritmilor statici și dinamici** pentru a obține un e
 
 Majoritatea algoritmilor moderni de timp real folosesc **preempțiune** pentru a asigura respectarea deadline-urilor.
 
-## Comparație generală a algoritmilor
-
-| Categorie | Prioritate | Utilizare CPU | Complexitate | Taskuri aperiodice |
-|-----------|-----------|---------------|--------------|-------------------|
-| **Statici** (RMS, DMS) | Fixă | ~69% | Scăzută | Slab |
-| **Dinamici** (EDF, LLF) | Variabilă | 100% | Ridicată | Bine |
-| **Híbrizi** (MUF) | Mixtă | ~95% | Moderată | Bine |
-
 ## Alegerea algoritmului potrivit
 
 ### Când să folosim algoritmi statici (RMS/DMS)?
