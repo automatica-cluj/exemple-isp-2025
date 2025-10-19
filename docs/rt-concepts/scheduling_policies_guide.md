@@ -103,7 +103,7 @@ sched_setscheduler(0, SCHED_OTHER, &param);
 - Task se execută până când:
     - Se yielduiește voluntar (sched_yield())
     - Se blochează la I/O sau sincronizare
-    - Este preemptează de task RT cu prioritate mai mare
+    - Este preemtat de task RT cu prioritate mai mare
 - **Fără time slicing** - poate monopoliza CPU la nesfârșit!
 - Taskurile cu prioritate mai mare preemptează întotdeauna pe cele cu prioritate mai mică
 - Taskurile cu aceeași prioritate se execută în ordine FIFO
