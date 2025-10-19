@@ -1,9 +1,10 @@
 # Modelarea sistemelor în timp real folosind UML-RT
 
+------
+
 *Bazat pe lucrarea „Using UML for Modeling Complex Real-Time Systems” (Selic & Rumbaugh, 1998)*
 *Traducere, sinteză și clarificări pentru uz intern in cadrul materiei SSATR.*
 [UML for Modeling Complex Real-Time Systems](paper-UML-for-Modeling-Complex-Real-Time.pdf)
-------
 
 ## 1. Introducere
 
