@@ -74,5 +74,5 @@
   * [Linux PREEMT_RT kernel patch](rt-preemt-rt/introducere_PREEMT_RT.md)
   * [Introducere in algoritmi de planificare](rt-preemt-rt/linux_PREEMPT_RT_si_algoritmi_planificare.md)
   * [Utilizare algoritmi de planificare](rt-preemt-rt/scheduling_policies_guide.md)
-* [Modelarea Sistemelor de Timp Real]
-  * [uml-capsules-prezentare.md](rt-modeling/uml-capsules-prezentare.md)
+* [Modelarea Sistemelor de Timp Real](rt-modeling/readme.md)
+  * [Capsule RT-UML](rt-modeling/uml-capsules-prezentare.md)
