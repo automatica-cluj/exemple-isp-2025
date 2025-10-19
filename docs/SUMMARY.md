@@ -70,5 +70,6 @@
   * [Algoritmul Earliest Deadline First (EDF)](rt-concepts/earliest_deadline_first_presentation.md)
   * [Algoritmul Least Laxity First (LLF)](rt-concepts/least_laxity_first_presentation.md)
   * [Algoritmi hibrizi](rt-concepts/hybrid_algorithms_presentation.md)
-  * [Introducere PREEMT_RT.md](rt-concepts/introducere_PREEMT_RT)
-  * [Algoritmii de planificare si Linux PREEMT_RT](rt-concepts/linux_PREEMPT_RT_si_algoritmi_planificare.md)
+  * [Introducere PREEMT_RT](rt-concepts/introducere_PREEMT_RT)
+  * [Algoritmii de planificare si PREEMT_RT](rt-concepts/linux_PREEMPT_RT_si_algoritmi_planificare.md)
+  * [Algoritmi de planificare in PREEMT_RT](rt-concepts/scheduling_policies_guide.md)

@@ -139,25 +139,6 @@ Majoritatea algoritmilor moderni de timp real folosesc **preempțiune** pentru a
 - Balanță între **performanță** și **overhead**
 - Aplicații industriale reale
 
-## Limite teoretice vs practică
-
-### Limita teoretică de utilizare
-
-| Algoritm | Limita teoretică | Semnificație |
-|----------|-----------------|--------------|
-| RMS/DMS | U ≤ n(2^(1/n) - 1) ≈ 69.3% | Garanție suficientă |
-| EDF/LLF | U ≤ 1 (100%) | Garanție necesară și suficientă |
-
-**Important:** Aceste limite sunt **condiționale suficiente**, nu necesare. Un sistem poate fi planificabil chiar dacă depășește limita teoretică, dar acest lucru trebuie verificat prin analiză exactă.
-
-### Considerații practice
-
-În sisteme reale trebuie să ținem cont de:
-- **Context switching** - timpul pierdut la schimbarea între taskuri
-- **Sincronizare** - dependențe între taskuri (mutex, semafoare)
-- **Inversiunea de prioritate** - taskuri cu prioritate mică blochează pe cele cu prioritate mare
-- **Jitter** - variabilitatea în timpul de răspuns
-
 ## Evoluția algoritmilor de planificare
 
 ```
