@@ -76,3 +76,5 @@
   * [Utilizare algoritmi de planificare](rt-preemt-rt/scheduling_policies_guide.md)
 * [Modelarea Sistemelor de Timp Real](rt-modeling/readme.md)
   * [Capsule RT-UML](rt-modeling/uml-capsules-prezentare.md)
+  * [Giotto](rt-modeling/giotto.md)
+  * [UPPAAL](rt-modeling/uppaal.md)
