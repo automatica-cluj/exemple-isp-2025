@@ -25,19 +25,21 @@ Sistemele în timp real se împart în trei categorii principale, bazate pe cons
 
 #### 1. **Sisteme în Timp Real Strict (Hard Real-Time)**
 
-- **Definiție**: Ratarea unui termen limită are consecințe catastrofale
+- **Definiție**: Ratarea unui termen limită are consecințe catastrofale — funcția sau sistemul poate produce daune fizice, pierderi materiale majore sau pierderi de vieți. În astfel de sisteme, pentru o sarcină este esențială nu doar corectitudinea logică, ci și finalizarea ei înainte de deadline; un rezultat corect, dar livrat prea târziu, este considerat un eșec.
+  - **Exemple**: controlul airbag-urilor, pacemaker-e, sisteme de control al zborului.
+  - **Implicații de proiectare**: preferința pentru scheme deterministe de planificare, analize WCET stricte, redundanță hardware și mecanisme de degradare grațioasă.
 - **Exemple**: Sisteme de control pentru airbag-uri, pacemaker-e, sisteme de control al zborului
 - **Caracteristică cheie**: Termenele limită sunt absolute și nu pot fi ratate niciodată
 
 #### 2. **Sisteme în Timp Real Flexibil (Soft Real-Time)**
 
-- **Definiție**: Ratarea unui termen limită degradează calitatea serviciului dar este tolerabilă
+- **Definiție**: Ratarea unui termen limită degradează calitatea serviciului, dar este tolerabilă. În astfel de sisteme unele deadline‑uri pot fi depăşite ocazional fără efecte catastrofale; consecinţele sunt o scădere a QoS (latenţă mai mare, pierdere de pachete, degrade în experienţa utilizatorului) dar nu pierdere totală a funcţionalităţii. Acceptabilitatea este de obicei exprimată prin metrici statistice (ex.: procentul deadline‑urilor respectate). Proiectarea include mecanisme de degradare graţioasă, prioritizare adaptivă, admission control şi politici de recuperare pentru a menţine performanţa în limite tolerate.
 - **Exemple**: Streaming video, jocuri online, sisteme multimedia
 - **Caracteristică cheie**: Sistemul rămâne funcțional chiar cu ratări ocazionale
 
 #### 3. **Sisteme în Timp Real Ferm (Firm Real-Time)**
 
-- **Definiție**: Ratarea unui termen limită este acceptabilă dacă nu se întâmplă frecvent
+- **Definiție**: Ratarea unui termen limită este acceptabilă dacă nu se întâmplă frecvent; consecința este doar o degradare a calității serviciului, nu o pierdere totală a funcționalității. Măsurarea se face prin metrici statistice (ex.: procentul de deadline\-uri respectate), iar proiectarea include mecanisme de degradare, admission control și prioritizare adaptivă pentru a menține performanța în limite tolerate.
 - **Exemple**: Prelucrarea tranzacțiilor bancare, sisteme de monitorizare
 - **Caracteristică cheie**: Rezultatele devin inutile după termen, dar ratări rare sunt tolerate
 
