@@ -2,7 +2,7 @@
 
 ## Scopul Laboratoarelor
 
-Pentru a facilita înțelegerea funcționalităților introduse de **PREEMPT_RT**, a fost creat un set de **laboratoare opționale** ce pot fi parcurse de studenți pentru a înțelege principiile de bază ale programării în timp real. Laboratoarele sunt configurate în repository-ul Git disponibil aici: **https://github.com/automatica-cluj/ssatr-iaisc-icaf-2025-labs-v2**.
+Pentru a facilita înțelegerea funcționalităților introduse de **PREEMPT_RT**, a fost creat un set de **laboratoare opționale** ce pot fi parcurse de studenți pentru a înțelege principiile de bază ale programării în timp real. Laboratoarele sunt configurate în repository-ul Git disponibil [aici](https://github.com/automatica-cluj/ssatr-iaisc-icaf-2025-labs-v2).
 
 Aceste laboratoare reprezintă un set complet de activități practice menite să sprijine familiarizarea studenților cu conceptele de **programare în timp real (real-time)** aplicate în sistemul de operare **Linux** modificat cu patch-ul de kernel **PREEMPT-RT**.
 
