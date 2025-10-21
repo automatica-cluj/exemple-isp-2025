@@ -64,6 +64,7 @@
   * [Librăria Lombok](tools-basic/limbraria-lombok.md)
 * [Concepte Sisteme de Timp Real](rt-concepts/readme.md)
   * [Sisteme de timp-real](rt-concepts/introducere_concepte_rt.md)
+  * [Task de timp real](rt-concepts/conceptul_de_task.md)
   * [Algoritmi de planificare](rt-concepts/introducere_algoritmi_planificare.md)
   * [Algoritmul Rate Monotonic (RM)](rt-concepts/rate_monotonic_presentation.md)
   * [Algoritmul Deadline Monotonic (DM)](rt-concepts/deadline_monotonic_presentation.md)
