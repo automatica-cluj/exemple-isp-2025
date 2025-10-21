@@ -1,41 +1,5 @@
 # Introducere în Algoritmii de Planificare pentru Sisteme de Timp Real
 
-## Ce sunt sistemele de timp real?
-
-Sistemele de timp real sunt sisteme computaționale în care **corectitudinea** unui rezultat depinde nu doar de **valorile calculate**, ci și de **momentul în care** acestea sunt produse. În astfel de sisteme, întârzierea în livrarea unui rezultat poate avea consecințe grave, de la degradarea performanței până la erori catastrofale.
-
-### Exemple de sisteme de timp real
-
-- **Sisteme de control industrial** - controlul proceselor chimice, fabrici automatizate
-- **Sisteme automotive** - frânare ABS, airbag-uri, control motor
-- **Sisteme medicale** - monitorizare pacienți, echipament de suport vital
-- **Sisteme aerospațiale** - controlul zborului, navigație
-- **Sisteme multimedia** - streaming video/audio, jocuri video
-
-## Concepte fundamentale
-
-### Taskuri (Tasks)
-
-Un **task** (sau proces) reprezintă o unitate de lucru care trebuie executată de sistem. Fiecare task are mai multe caracteristici importante:
-
-- **Timp de execuție (C)** - timpul necesar pentru a finaliza taskul
-- **Perioadă (T)** - pentru taskuri periodice, intervalul de timp între activări succesive
-- **Deadline (D)** - momentul maxim până la care taskul trebuie finalizat
-- **Prioritate** - importanța relativă a taskului față de alte taskuri
-
-### Tipuri de taskuri
-
-**Taskuri periodice:**
-- Se activează la intervale regulate de timp
-- Exemplu: citirea senzorilor la fiecare 10ms
-
-**Taskuri aperiodice:**
-- Se activează la momente nepredictibile
-- Exemplu: procesarea unui eveniment de urgență
-
-**Taskuri sporadice:**
-- Similare cu cele aperiodice, dar cu un interval minim garantat între activări
-
 ### Planificabilitate (Schedulability)
 
 Un sistem este **planificabil** dacă toate taskurile sale pot fi executate respectând deadline-urile stabilite. Testele de planificabilitate verifică matematic dacă un set de taskuri poate fi planificat cu succes.
