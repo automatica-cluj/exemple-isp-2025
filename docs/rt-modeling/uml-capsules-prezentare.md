@@ -185,16 +185,7 @@ Capsulele pot accesa un **Time Service** printr-un port de tip *service access p
 
 ------
 
-## 7. Analogie intuitivă
-
-| Concept UML-RT | Analogie umană                                  |
-| -------------- | ----------------------------------------------- |
-| **Protocol**   | regulile limbajului (gramatică, vocabular)      |
-| **Port**       | gura sau urechea unui vorbitor                  |
-| **Conector**   | canalul de comunicare (fir, rețea)              |
-| **Capsulă**    | persoana care „vorbește” folosind acel protocol |
-
-## 8. Concluzie
+## 7. Concluzie
 
 Modelul **UML-RT (Real-Time UML)** oferă o metodă formală, scalabilă și intuitivă pentru modelarea sistemelor reactive.
 Prin separarea clară între **structură (capsule, porturi, conectori)** și **comportament (protocoale, mașini de stare)**, acesta permite:
