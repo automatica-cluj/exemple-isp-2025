@@ -113,6 +113,8 @@ ProtocolA
 2. **Portul** implementează un **rol de protocol**, adică joacă o parte din acel contract.
 3. **Conectorul** leagă **porturi complementare** ale aceluiași protocol, permițând transferul de semnale.
 
+![img.png](img.png)
+
 ------
 
 ### 4.3 Mașinile de stare
@@ -154,12 +156,27 @@ Capsulele pot accesa un **Time Service** printr-un port de tip *service access p
 ```
 ## 6. Reprezentare grafică
 
+### Diagrama de capsule detaliata
+
 ![img_3.png](img_3.png)
+
+### Diagrama de capsule 
+
+In giura de mai jos este reprezentat un sitem format din trei capsule. 
 
 ![img_1.png](img_1.png)
 
+### Diagrama de capsule simplificata
+
+In figura de mai jos este reprezentata diagrama de capsule simplificata  a unui sistem format din trei capsule in care masinile de stare nu sunt reprezentate.  
+
 ![img_2.png](img_2.png)
 ------
+
+### Diagrama de capcule cu detaliere de masini de stare
+
+![img_6.png](img_6.png)
+
 
 ## 7. Beneficii arhitecturale
 
