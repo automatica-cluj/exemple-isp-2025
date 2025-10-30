@@ -115,7 +115,7 @@ ProtocolA
 
 #### Reprezentare grafică:
 
-![img.png](img.png)
+![img_3.png](img_3.png)
 
 ![img_1.png](img_1.png)
 
@@ -128,16 +128,6 @@ Fiecare capsulă poate avea o **mașină de stare** internă care definește:
 
 - reacțiile la semnale primite prin porturi de tip *end*;
 - semnalele transmise către alte capsule;
-- controlul sub-capsulelor dinamice (creare, distrugere, activare).
-
-#### Tipuri de declanșatoare
-
-- **Event-based triggers** – declanșate de semnale;
-- **Port-based triggers** – permit tratarea diferită a aceluiași semnal în funcție de portul care l-a primit.
-
-#### Modelarea comportamentului abstract
-
-UML-RT permite moștenirea mașinilor de stare și extinderea comportamentului prin *chain states* (`«chainState»`) – stări speciale care leagă tranziții multiple într-un singur pas de execuție (run-to-completion).
 
 ------
 
