@@ -129,7 +129,7 @@ Fiecare capsulă poate avea o **mașină de stare** internă care definește:
 ### 4.4 Serviciul de timp
 
 Timpul este tratat ca o resursă sistemică.
-Capsulele pot accesa un **Time Service** printr-un port de tip *service access point*, pentru a primi evenimente de tip *timeout* sau pentru a programa acțiuni la momente precise.
+Capsulele pot accesa un Time Service printr-un port de tip end port, pentru a primi evenimente de tip timeout sau pentru a programa acțiuni la momente precise. Time Service poate fi implementat ca o capsulă de sine stătătoare, care generează evenimente de timp (timeout) la momente specificate.
 
 ------
 
@@ -162,7 +162,7 @@ Capsulele pot accesa un **Time Service** printr-un port de tip *service access p
 
 ### Diagrama de capsule 
 
-In giura de mai jos este reprezentat un sitem format din trei capsule. 
+In figura de mai jos este reprezentat un sitem format din trei capsule. 
 
 ![img_1.png](img_1.png)
 
