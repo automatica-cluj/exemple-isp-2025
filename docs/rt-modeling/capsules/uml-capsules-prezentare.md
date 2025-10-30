@@ -4,7 +4,7 @@
 
 *Bazat pe lucrarea „Using UML for Modeling Complex Real-Time Systems” (Selic & Rumbaugh, 1998)*
 *Traducere, sinteză și clarificări pentru uz intern in cadrul materiei SSATR.*
-[UML for Modeling Complex Real-Time Systems](paper-UML-for-Modeling-Complex-Real-Time.pdf)
+[UML for Modeling Complex Real-Time Systems](../paper-UML-for-Modeling-Complex-Real-Time.pdf)
 
 ## 1. Introducere
 
@@ -12,6 +12,8 @@ Sistemele software în timp real – întâlnite în domenii precum **telecomuni
 Pentru a gestiona această complexitate, se utilizează o **arhitectură component-bazată**, fundamentată pe conceptul de **capsulă (capsule)**.
 
 Modelul UML-RT derivă din limbajul **ROOM (Real-Time Object-Oriented Modeling)** și extinde UML prin mecanismele sale de *stereotipuri* (`«capsule»`, `«port»`, `«protocol»`, etc.) pentru a descrie clar structura și comportamentul sistemelor reactive.
+
+O diagramă UML cu capsule vizualizează structura și comunicarea componentelor într-un sistem în timp real, bazat pe evenimente. Este o formă specializată a unei diagrame de structură compozită UML, folosind o capsulă—un obiect activ, încapsulat—ca bloc de construcție fundamental.
 
 ------
 
@@ -113,14 +115,7 @@ ProtocolA
 
 #### Reprezentare grafică:
 
-```text
-«capsule»             «capsule»
-CapsuleA              CapsuleB
- +p:ProtocolA::master   +q:ProtocolA::slave
-       │                       │
-       └─────── connector ─────┘
-```
-
+![img.png](img.png)
 ------
 
 ### 4.3 Mașinile de stare
@@ -195,3 +190,6 @@ Prin separarea clară între **structură (capsule, porturi, conectori)** și **
 - reutilizare eficientă a componentelor;
 - posibilitatea generării automate de cod.
 
+## 8. Resurse
+
+- [Template pentru Capsule UML Draw.io ](capsule.drawio)
