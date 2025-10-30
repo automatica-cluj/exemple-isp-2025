@@ -113,13 +113,6 @@ ProtocolA
 2. **Portul** implementează un **rol de protocol**, adică joacă o parte din acel contract.
 3. **Conectorul** leagă **porturi complementare** ale aceluiași protocol, permițând transferul de semnale.
 
-#### Reprezentare grafică:
-
-![img_3.png](img_3.png)
-
-![img_1.png](img_1.png)
-
-![img_2.png](img_2.png)
 ------
 
 ### 4.3 Mașinile de stare
@@ -159,10 +152,16 @@ Capsulele pot accesa un **Time Service** printr-un port de tip *service access p
    ├── owns → ports, subcapsules, connectors
    └── controlled by → state machine
 ```
+## 6. Reprezentare grafică
 
+![img_3.png](img_3.png)
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
 ------
 
-## 6. Beneficii arhitecturale
+## 7. Beneficii arhitecturale
 
 | Principiu                                | Descriere                                                    |
 | ---------------------------------------- | ------------------------------------------------------------ |
@@ -174,7 +173,7 @@ Capsulele pot accesa un **Time Service** printr-un port de tip *service access p
 
 ------
 
-## 7. Concluzie
+## 8. Concluzie
 
 Modelul **UML-RT (Real-Time UML)** oferă o metodă formală, scalabilă și intuitivă pentru modelarea sistemelor reactive.
 Prin separarea clară între **structură (capsule, porturi, conectori)** și **comportament (protocoale, mașini de stare)**, acesta permite:
@@ -184,6 +183,6 @@ Prin separarea clară între **structură (capsule, porturi, conectori)** și **
 - reutilizare eficientă a componentelor;
 - posibilitatea generării automate de cod.
 
-## 8. Resurse
+## 9. Resurse
 
 - [Template pentru Capsule UML Draw.io ](capsule.drawio)
