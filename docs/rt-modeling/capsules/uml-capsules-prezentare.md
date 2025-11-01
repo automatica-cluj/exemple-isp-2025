@@ -175,7 +175,7 @@ In figura de mai jos este reprezentata diagrama de capsule simplificata  a unui 
 
 ### Diagrama de capcule cu detaliere de masini de stare
 
-![img_6.png](img_6.png)
+![img_4.png](img_4.png)
 
 
 ## 7. Beneficii arhitecturale

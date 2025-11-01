@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2" pages="5">
   <diagram name="Capsule" id="k5mG0mM5iGEgYk0Yn416">
-    <mxGraphModel dx="1394" dy="596" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2004" dy="783" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PDe9mAOlIbxeDY0ZTMfF-0" />
         <mxCell id="PDe9mAOlIbxeDY0ZTMfF-1" parent="PDe9mAOlIbxeDY0ZTMfF-0" />
@@ -429,7 +429,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of State Machine" id="brlFgoFR7uT2V6H2LwEZ">
-    <mxGraphModel dx="1491" dy="1294" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1833" dy="1294" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="QT8U7xymwvTjIZXQLKgV-0" />
         <mxCell id="QT8U7xymwvTjIZXQLKgV-1" parent="QT8U7xymwvTjIZXQLKgV-0" />
@@ -486,7 +486,7 @@
         <mxCell id="YlBcedBZpj3s9J1tkLZ1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="S1Y0QWmcJyclcaxxHFJc-0">
           <mxGeometry x="549" y="245" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="YlBcedBZpj3s9J1tkLZ1-4" value="&lt;div&gt;&amp;lt;&amp;lt;capsule&amp;gt;&amp;gt;&lt;/div&gt;Capsule A" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=none;" vertex="1" parent="QT8U7xymwvTjIZXQLKgV-1">
+        <mxCell id="YlBcedBZpj3s9J1tkLZ1-4" value="&lt;div&gt;&amp;lt;&amp;lt;capsule&amp;gt;&amp;gt;&lt;/div&gt;Capsule B" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=none;" vertex="1" parent="QT8U7xymwvTjIZXQLKgV-1">
           <mxGeometry x="804" y="390" width="618" height="383" as="geometry">
             <mxRectangle x="90" y="280" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
