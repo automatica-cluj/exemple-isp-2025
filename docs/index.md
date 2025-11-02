@@ -2,11 +2,11 @@
 title: Ingineria Sistemelor de Programe
 ---
 
-# Ingineria Sistemelor de Programe
+# Ingineria Software
 
 ## Bine ați venit!
 
-Această platformă contine documentație  pentru cursurile de **Ingineria Sistemelor de Programe** (ISP) și **Structuri Software pentru Aplicații de Timp Real** (SSATR), destinate studenților de la Facultatea de Automatică și Calculatoare, Departamentul de Automatica, Universitatea Tehnică din Cluj-Napoca.
+Această platformă conține documentație  pentru cursurile de **Ingineria Sistemelor de Programe** (ISP) și **Structuri Software pentru Aplicații de Timp Real** (SSATR), destinate studenților de la Facultatea de Automatică și Calculatoare, Departamentul de Automatica, Universitatea Tehnică din Cluj-Napoca.
 
 ### Despre această documentație
 

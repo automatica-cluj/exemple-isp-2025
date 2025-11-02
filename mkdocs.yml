@@ -1,12 +1,12 @@
-site_name: Ingineria Sistemelor de Programe
+site_name: Documentatie Inginerie Software
 site_description: Documentație suplimentară pentru ISP și SSATR
-site_author: Automatica, Universitatea Tehnică Cluj-Napoca
+site_author: Mihai
 site_url: https://control.aut.utcluj.ro:8000/
 use_directory_urls: true
 
 # Repository
-repo_name: exemple-isp-2025
-repo_url: https://github.com/your-username/exemple-isp-2025
+repo_name: automatica
+repo_url: https://github.com/automatica-cluj
 
 # Documentation directory
 docs_dir: docs
@@ -149,7 +149,7 @@ nav:
       - Capsule UML-RT: rt-modeling/capsules/uml-capsules-prezentare.md
       - Giotto: rt-modeling/giotto.md
       - UPPAAL: rt-modeling/uppaal.md
-  - Instrumente & Tehnologii:
+  - Tehnologii Conexe:
     - GitHub Actions: tools-basic/github-actions.md
     - Azure Resources: tools-basic/azure-resources.md
     - Containere Docker: tools-basic/containere-docker.md
@@ -171,7 +171,10 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/exemple-isp-2025
+      link: https://github.com/automatica-cluj
+
+# Copyright notice in footer
+copyright: Copyright &copy; 2025 Mihai Hulea | <a href="https://control.aut.utcluj.ro" target="_blank">Pagina principală</a>
 
 # JavaScript for MathJax
 extra_javascript:
