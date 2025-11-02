@@ -1,7 +1,8 @@
 site_name: Ingineria Sistemelor de Programe
 site_description: Documentație suplimentară pentru ISP și SSATR
 site_author: Automatica, Universitatea Tehnică Cluj-Napoca
-site_url: https://your-site-url.com
+site_url: https://control.aut.utcluj.ro:8000/
+use_directory_urls: true
 
 # Repository
 repo_name: exemple-isp-2025
