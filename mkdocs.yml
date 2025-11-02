@@ -1,4 +1,4 @@
-site_name: Documentatie Inginerie Software
+site_name: Documentație Curs și Laborator
 site_description: Documentație suplimentară pentru ISP și SSATR
 site_author: Mihai
 site_url: https://control.aut.utcluj.ro:8000/
@@ -74,7 +74,7 @@ markdown_extensions:
 
 # Navigation structure
 nav:
-  - Acasă: index.md
+  - Despre: index.md
   - Programare Java:
     - Concepte Fundamentale:
       - Structuri Lexicale: oop-basic/01-structuri-lexicale.md

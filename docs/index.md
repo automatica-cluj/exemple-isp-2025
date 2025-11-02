@@ -1,8 +1,4 @@
----
-title: Ingineria Sistemelor de Programe
----
-
-# Ingineria Software
+# Documentație Curs și Laborator
 
 ## Bine ați venit!
 
