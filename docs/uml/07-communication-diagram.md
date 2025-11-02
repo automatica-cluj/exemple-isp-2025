@@ -1,14 +1,5 @@
 # Documentație Diagrame UML de Comunicare
 
-## Cuprins
-1. [Introducere](#introducere)
-2. [Concepte fundamentale](#concepte-fundamentale)
-3. [Elementele unei diagrame de comunicare](#elementele-unei-diagrame-de-comunicare)
-4. [Notația PlantUML](#notația-plantuml)
-5. [Exemple practice](#exemple-practice)
-6. [Bune practici](#bune-practici)
-7. [Resurse suplimentare](#resurse-suplimentare)
-
 ## Introducere
 
 Diagramele UML de comunicare (cunoscute anterior ca diagrame de colaborare) sunt instrumente pentru modelarea interacțiunilor dintre obiectele unui sistem. Spre deosebire de diagramele de secvență care accentuează ordinea temporală, diagramele de comunicare evidențiază relațiile structurale între obiecte și modul în care acestea colaborează.

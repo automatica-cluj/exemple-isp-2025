@@ -1,14 +1,5 @@
 # Documentație Diagrame UML de Stare (State Machine)
 
-## Cuprins
-1. [Introducere](#introducere)
-2. [Concepte fundamentale](#concepte-fundamentale)
-3. [Elementele unei diagrame de stare](#elementele-unei-diagrame-de-stare)
-4. [Notația PlantUML](#notația-plantuml)
-5. [Exemple practice](#exemple-practice)
-6. [Bune practici](#bune-practici)
-7. [Resurse suplimentare](#resurse-suplimentare)
-
 ## Introducere
 
 Diagramele de stare (state machine diagrams) sunt un tip de diagrame comportamentale din familia Unified Modeling Language (UML) care descriu comportamentul unui sistem în funcție de stările sale și de tranzițiile între acestea. Aceste diagrame sunt esențiale pentru modelarea sistemelor reactive și orientate pe evenimente, oferind o reprezentare vizuală a modului în care un obiect își schimbă starea ca răspuns la diverse evenimente.

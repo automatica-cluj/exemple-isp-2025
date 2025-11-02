@@ -1,16 +1,5 @@
 # Java I/O Streams 
 
-## Cuprins
-1. [Introducere în I/O Streams](#introducere-în-io-streams)
-2. [Ierarhia claselor de Streams](#ierarhia-claselor-de-streams)
-3. [Byte Streams - Fluxuri de Octeți](#byte-streams---fluxuri-de-octeți)
-4. [Character Streams - Fluxuri de Caractere](#character-streams---fluxuri-de-caractere)
-5. [Buffered Streams - Fluxuri Tampon](#buffered-streams---fluxuri-tampon)
-6. [Data Streams și Object Streams](#data-streams-și-object-streams)
-7. [Citirea și Scrierea Fișierelor de Text](#citirea-și-scrierea-fișierelor-de-text)
-8. [Procesare I/O cu NIO și NIO.2](#procesare-io-cu-nio-și-nio2)
-9. [Serializarea și Deserializarea](#serializarea-și-deserializarea)
-
 ## Introducere în I/O Streams
 
 În Java, un stream (flux) reprezintă o secvență de date care circulă între o sursă și o destinație. I/O Streams (Input/Output Streams) furnizează mecanisme pentru citirea și scrierea datelor, facilitând interacțiunea programelor Java cu diferite surse și destinații de date cum ar fi fișiere, rețea, memorie sau dispozitive.

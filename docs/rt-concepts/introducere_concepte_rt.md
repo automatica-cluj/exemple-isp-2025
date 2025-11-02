@@ -1,19 +1,6 @@
 # Introducere în Sistemele în Timp Real 
 
-## Cuprins
-
-1. [Introducere și Concepte Fundamentale](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#1-introducere-și-concepte-fundamentale)
-2. [Caracteristici Esențiale](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#2-caracteristici-esențiale)
-3. [Sisteme de Operare în Timp Real (RTOS)](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#3-sisteme-de-operare-în-timp-real-rtos)
-4. [Algoritmi de Planificare](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#4-algoritmi-de-planificare)
-5. [Provocări și Soluții](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#5-provocări-și-soluții)
-6. [Studii de Caz din Industrie](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#6-studii-de-caz-din-industrie)
-7. [Lecții din Eșecuri Istorice](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#7-lecții-din-eșecuri-istorice)
-8. [Concluzii și Perspective](https://claude.ai/chat/8f00e9e4-ba50-4239-9fb5-d460c51b5f7c#8-concluzii-și-perspective)
-
-------
-
-## 1. Introducere și Concepte Fundamentale
+## 1. Concepte Fundamentale
 
 ### Ce este un sistem în timp real?
 

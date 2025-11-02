@@ -1,21 +1,5 @@
 # Expresii Lambda
 
-## Cuprins
-1. [Introducere în Expresii Lambda](#introducere-în-expresii-lambda)
-2. [Sintaxa Expresiilor Lambda](#sintaxa-expresiilor-lambda)
-3. [Interfețe Funcționale](#interfețe-funcționale)
-4. [Packagul java.util.function](#packageul-javautilfunction)
-5. [Variabile și Scope în Lambda](#variabile-și-scope-în-lambda)
-6. [Referințe la Metode](#referințe-la-metode)
-7. [Expresii Lambda vs Clase Anonime](#expresii-lambda-vs-clase-anonime)
-8. [Utilizarea Lambda cu Colecții](#utilizarea-lambda-cu-colecții)
-9. [Utilizarea Lambda cu Streams](#utilizarea-lambda-cu-streams)
-10. [Lambda în GUI și Evenimente](#lambda-în-gui-și-evenimente)
-11. [Tehnici Avansate](#tehnici-avansate)
-12. [Bune Practici](#bune-practici)
-13. [Exemple Complete](#exemple-complete)
-14. [Troubleshooting și Probleme Comune](#troubleshooting-și-probleme-comune)
-
 ## Introducere în Expresii Lambda
 
 Expresiile lambda au fost introduse în Java 8 și reprezintă una dintre cele mai importante îmbunătățiri ale limbajului, facilitând programarea funcțională în Java. Lambda este, în esență, o funcție anonimă - un bloc de cod care poate fi transmis ca argument altor metode.

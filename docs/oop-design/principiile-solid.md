@@ -1,13 +1,5 @@
 # Principiile avansate OOP (S.O.L.I.D.)
 
-## Cuprins
-
-5. [Principiul Segregării Interfețelor](#principiul-segregării-interfețelor)
-6. [Principiul Responsabilității Unice](#principiul-responsabilității-unice)
-7. [Principiul Deschis-Închis](#principiul-deschis-închis)
-8. [Principiul Substituției Liskov](#principiul-substituției-liskov)
-9. [Principiul Inversiunii Dependențelor](#principiul-inversiunii-dependențelor)
-
 ## Introducere
 
 Acronimul S.O.L.I.D. reprezintă un set de 5 principii fundamentale pentru proiectarea aplicațiilor în programarea orientată pe obiecte. Fiecare literă din cuvântul SOLID corespunde unui principiu:

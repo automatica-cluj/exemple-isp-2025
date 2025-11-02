@@ -1,19 +1,5 @@
 # Java Streams API
 
-## Cuprins
-1. [Introducere în Streams API](#introducere-în-streams-api)
-2. [Crearea Stream-urilor](#crearea-stream-urilor)
-3. [Operații Intermediare](#operații-intermediare)
-4. [Operații Terminale](#operații-terminale)
-5. [Stream-uri Specializate](#stream-uri-specializate)
-6. [Paralelizarea Stream-urilor](#paralelizarea-stream-urilor)
-7. [Colectori](#colectori)
-8. [Exemple Practice](#exemple-practice)
-9. [Bune Practici](#bune-practici)
-10. [Comparație cu Metodele Tradiționale](#comparație-cu-metodele-tradiționale)
-11. [Probleme Uzuale și Soluții](#probleme-uzuale-și-soluții)
-12. [Referințe](#referințe)
-
 ## Introducere în Streams API
 
 Stream API a fost introdus în Java 8 și reprezintă un mod nou și puternic de a procesa colecții de date. Un stream reprezintă o secvență de elemente asupra cărora se pot aplica diverse operații în mod agregat.

@@ -1,18 +1,5 @@
 # Structuri Lexicale
 
-## Cuprins
-1. Ce sunt structurile lexicale?
-2. Identificatori
-3. Cuvinte cheie (Keywords)
-4. Literali (Literals)
-5. Operatori
-6. Separatori
-7. Comentarii
-8. Exemple practice
-9. Exerciții
-
----
-
 ## 1. Ce sunt structurile lexicale?
 
 Structurile lexicale reprezintă elementele fundamentale ale limbajului Java. Acestea sunt blocurile de bază din care se construiesc programele Java.

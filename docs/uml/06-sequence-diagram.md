@@ -1,13 +1,4 @@
-# Documentație Diagrame UML de Secvență
-
-## Cuprins
-1. [Introducere](#introducere)
-2. [Concepte fundamentale](#concepte-fundamentale)
-3. [Elementele unei diagrame de secvență](#elementele-unei-diagrame-de-secvență)
-4. [Notația PlantUML](#notația-plantuml)
-5. [Exemple practice](#exemple-practice)
-6. [Bune practici](#bune-practici)
-7. [Resurse suplimentare](#resurse-suplimentare)
+# Diagrame UML de Secvență
 
 ## Introducere
 

@@ -1,18 +1,5 @@
 # Agregarea, Compoziția și Moștenirea
 
-## Cuprins
-1. [Agregarea și Compoziția](#agregarea-și-compoziția)
-2. [Moștenirea](#moștenirea)
-3. [Clasa de Bază](#clasa-de-bază)
-4. [Clasa Derivată](#clasa-derivată)
-5. [Polimorfismul](#polimorfismul)
-6. [Suprascrierea Metodelor](#suprascrierea-metodelor)
-7. [Cuvântul Cheie super](#cuvântul-cheie-super)
-8. [Cuvântul Cheie final](#cuvântul-cheie-final)
-9. [Cuvântul Cheie extends](#cuvântul-cheie-extends)
-10. [Clasa Object](#clasa-object)
-11. [Conversii de Tip](#conversii-de-tip)
-
 ## Agregarea și Compoziția
 
 Agregarea și compoziția sunt două forme de asociere între clase care reprezintă relații de tip "are un" (*has-a*). Ambele sunt fundamentale pentru crearea de structuri complexe utilizând obiecte simple.

@@ -1,12 +1,5 @@
 # Interfețele Comparator și Comparable
 
-## Cuprins
-1. [Interfața Comparable](#interfața-comparable)
-2. [Interfața Comparator](#interfața-comparator)
-3. [Diferențe între Comparable și Comparator](#diferențe-între-comparable-și-comparator)
-4. [Utilizarea Comparator cu colecții](#utilizarea-comparator-cu-colecții)
-5. [Exemple practice](#exemple-practice)
-
 ## Interfața Comparable
 
 Interfața `Comparable` face parte din pachetul `java.lang` și permite obiectelor unei clase să definească ordinea lor "naturală". Implementând această interfață, obiectele unei clase pot fi sortate automat folosind metodele de sortare din `Collections` sau `Arrays`.

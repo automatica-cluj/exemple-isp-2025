@@ -1,18 +1,5 @@
 # Interfete si Clase Abstracte
 
-## Cuprins
-1. [Enum](#enum)
-2. [Clase Abstracte](#clase-abstracte)
-3. [Interfețe](#interfețe)
-    - [Interfețe Funcționale](#interfețe-funcționale)
-    - [Metode Default](#metode-default)
-    - [Metode Statice în Interfețe](#metode-statice-în-interfețe)
-4. [Clase Interne](#clase-interne)
-    - [Clase Interne Statice](#clase-interne-statice)
-    - [Clase Interne de Instanță](#clase-interne-de-instanță)
-    - [Clase Interne Locale](#clase-interne-locale)
-    - [Clase Interne Anonime](#clase-interne-anonime)
-
 ## Enum
 
 **Enum** (enumerare) este un tip special de clasă care reprezintă un grup de constante (variabile care nu-și pot schimba valoarea după ce au fost declarate).

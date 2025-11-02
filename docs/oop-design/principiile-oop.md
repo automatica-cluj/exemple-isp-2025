@@ -1,12 +1,5 @@
 # Principiile de baza OOP
 
-# Cuprins
-
-1. [Principiul Încapsulării](#principiul-încapsulării)
-2. [Principiul Moștenirii](#principiul-moștenirii)
-3. [Principiul Polimorfismului](#principiul-polimorfismului)
-4. [Principiul Abstractizării](#principiul-abstractizării)
-
 ## Principiul Încapsulării
 
 Încapsularea este unul dintre principiile fundamentale ale OOP care:

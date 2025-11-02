@@ -1,0 +1,179 @@
+site_name: Ingineria Sistemelor de Programe
+site_description: Documentație suplimentară pentru ISP și SSATR
+site_author: Automatica, Universitatea Tehnică Cluj-Napoca
+site_url: https://your-site-url.com
+
+# Repository
+repo_name: exemple-isp-2025
+repo_url: https://github.com/your-username/exemple-isp-2025
+
+# Documentation directory
+docs_dir: docs
+
+# Theme configuration
+theme:
+  name: material
+  language: ro
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+# Navigation structure
+nav:
+  - Acasă: index.md
+  - Programare Java:
+    - Concepte Fundamentale:
+      - Structuri Lexicale: oop-basic/01-structuri-lexicale.md
+      - Structuri Repetitive și Condiționale: oop-basic/02-structuri-repetitive-conditionale.md
+      - Tipuri Primitive: oop-basic/03-tipuri-primitive.md
+      - String: oop-basic/04-String-siruri-de-caractere.md
+      - Clasa și Obiect: oop-basic/05-clasa-si-obiect.md
+      - Pachete și Librării: oop-basic/06-pachete-si-librarii.md
+      - Fișiere JAR: oop-basic/07-fisiere-jar.md
+      - Concepte Avansate OOP: oop-basic/08-concepte-avansate-oop.md
+      - Clasa Object: oop-basic/09-clasa-Object.md
+      - Ecosistemul Java: oop-basic/java-ecosystem.md
+    - Concepte Avansate:
+      - Interfețe și Clase Abstracte: oop-advanced/01-interfete-clase-abstracte.md
+      - Tipuri Generice: oop-advanced/02-tipuri-generice.md
+      - Optional și Null: oop-advanced/03-optional-si-null.md
+      - Comparator și Comparable: oop-advanced/04-1-interfetele-comparator-comparable.md
+      - Colecții: oop-advanced/04-colectii.md
+      - Streams API: oop-advanced/05-streams-api.md
+      - I/O Streams: oop-advanced/06-io-streams.md
+      - Lambda: oop-advanced/07-lamda.md
+      - Try-with-Resources: oop-advanced/08-try-with-resources.md
+      - Gestionarea Erorilor: oop-advanced/09-gestionarea-erorilor.md
+      - Adnotările: oop-advanced/10-adnotarile.md
+    - Programare Concurentă:
+      - Fire de Execuție: concurrent/fire-de-executie.md
+      - Colecții Thread-Safe: concurrent/colectii-thread-safe.md
+      - Tipuri Atomice: concurrent/tipuri-atomice.md
+      - Virtual Threads: concurrent/virtual-threads.md
+    - Interfețe Grafice:
+      - Introducere în Swing: ui-swing/01-ui-introducere.md
+      - Tabele: ui-swing/02-ui-tabele.md
+      - Liste: ui-swing/03-lists.md
+      - Exemplu Simplu Complet: ui-swing/04-exemmplu-simplu-complet.md
+      - Exemplu Scriere Fișier: ui-swing/05-exemplu-scrie-fisier.md
+      - MVC: ui-swing/06-mvc.md
+  - Design & Arhitectură:
+    - Proiectarea Aplicațiilor:
+      - Principiile OOP: oop-design/principiile-oop.md
+      - Principiile SOLID: oop-design/principiile-solid.md
+      - Introducere în Șabloane: oop-design/sabloane-introducere.md
+      - Șabloane Creaționale: oop-design/sabloane-creationale.md
+      - Șabloane Structurale: oop-design/sabloane-structuralx.md
+      - Șabloane Comportamentale: oop-design/sabloane-comportamentale.md
+      - SDLC: oop-design/sdlc-tools-table.md
+    - Unified Modeling Language:
+      - Introducere UML: uml/01-introducere-uml.md
+      - Use-Case: uml/02-use-case.md
+      - Documentație Use-Case: uml/03-use-case-documentatie.md
+      - Diagrame de Clase: uml/04-class-diagram.md
+      - Exemplu ATM: uml/05-class-diagram-exemplu.md
+      - Diagrame de Secvență: uml/06-sequence-diagram.md
+      - Diagrame de Comunicare: uml/07-communication-diagram.md
+      - Diagrame de Stare: uml/08-state-diagrams.md
+  - Sisteme de Timp Real:
+    - Concepte RT:
+      - Sisteme de Timp Real: rt-concepts/introducere_concepte_rt.md
+      - Conceptul de Task: rt-concepts/conceptul_de_task.md
+      - Algoritmi de Planificare: rt-concepts/introducere_algoritmi_planificare.md
+      - Rate Monotonic (RM): rt-concepts/rate_monotonic_presentation.md
+      - Deadline Monotonic (DM): rt-concepts/deadline_monotonic_presentation.md
+      - Earliest Deadline First (EDF): rt-concepts/earliest_deadline_first_presentation.md
+      - Least Laxity First (LLF): rt-concepts/least_laxity_first_presentation.md
+      - Algoritmi Hibrizi: rt-concepts/hybrid_algorithms_presentation.md
+    - Linux PREEMPT_RT:
+      - Introducere: rt-preemt-rt/README.md
+      - Kernel PREEMPT_RT: rt-preemt-rt/introducere_PREEMT_RT.md
+      - Algoritmi de Planificare: rt-preemt-rt/linux_PREEMPT_RT_si_algoritmi_planificare.md
+      - Utilizare Algoritmi de Planificare: rt-preemt-rt/scheduling_policies_guide.md
+      - Exerciții Opționale PREEMPT_RT: rt-preemt-rt/laboratoare_preemt_rt.md
+    - Modelare RT:
+      - Capsule UML-RT: rt-modeling/capsules/uml-capsules-prezentare.md
+      - Giotto: rt-modeling/giotto.md
+      - UPPAAL: rt-modeling/uppaal.md
+  - Instrumente & Tehnologii:
+    - GitHub Actions: tools-basic/github-actions.md
+    - Azure Resources: tools-basic/azure-resources.md
+    - Containere Docker: tools-basic/containere-docker.md
+    - IntelliJ și Docker: tools-basic/intellij-docker-app.md
+    - Azure Container Apps: tools-basic/azure-application-container.md
+    - Autorizare cu Keycloak: tools-basic/autorizare-restapi-keycloak.md
+    - Git: tools-basic/introducere-git.md
+    - Maven: tools-basic/introducere-maven.md
+    - Lombok: tools-basic/limbraria-lombok.md
+
+# Plugins
+plugins:
+  - search:
+      lang: ro
+  - minify:
+      minify_html: true
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/exemple-isp-2025
+
+# JavaScript for MathJax
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

@@ -1,28 +1,5 @@
 # Documentație: Tipuri Generice (Generics) în Java
 
-## Cuprins
-1. [Introducere](#introducere)
-2. [Motivație și Avantaje](#motivație-și-avantaje)
-3. [Sintaxa de Bază](#sintaxa-de-bază)
-    - [Clase Generice](#clase-generice)
-    - [Interfețe Generice](#interfețe-generice)
-    - [Metode Generice](#metode-generice)
-4. [Parametri de Tip](#parametri-de-tip)
-    - [Convenții de Denumire](#convenții-de-denumire)
-    - [Parametri de Tip Multipli](#parametri-de-tip-multipli)
-5. [Wildcard Types (Tipuri Joker)](#wildcard-types-tipuri-joker)
-    - [Unbounded Wildcards (?)](#unbounded-wildcards)
-    - [Upper Bounded Wildcards (? extends T)](#upper-bounded-wildcards--extends-t)
-    - [Lower Bounded Wildcards (? super T)](#lower-bounded-wildcards--super-t)
-6. [Type Erasure](#type-erasure)
-7. [Restricții și Limitări](#restricții-și-limitări)
-8. [Exemple Practice](#exemple-practice)
-    - [Container Generic](#container-generic)
-    - [Metode Utilitare Generice](#metode-utilitare-generice)
-    - [Perechi și Tuple](#perechi-și-tuple)
-9. [Design Patterns cu Generics](#design-patterns-cu-generics)
-10. [Bune Practici](#bune-practici)
-
 ## Introducere
 
 Tipurile generice (generics) reprezintă o facilitate a limbajului Java introdusă în versiunea 5.0 care permite crearea de clase, interfețe și metode parametrizate cu tipuri. Acestea oferă un mecanism pentru a defini structuri și algoritmi independenți de tip, păstrând în același timp siguranța tipurilor la compilare.

@@ -1,22 +1,5 @@
 # Colecții de Obiecte
 
-## Cuprins
-1. [Introducere în Colecții](#introducere-în-colecții)
-2. [Interfața Collection](#interfața-collection)
-3. [Ierarhia Colecțiilor](#ierarhia-colecțiilor)
-4. [Tipuri de Colecții](#tipuri-de-colecții)
-    - [Liste (Lists)](#liste-lists)
-    - [Seturi (Sets)](#seturi-sets)
-    - [Cozi (Queues)](#cozi-queues)
-    - [Maps](#maps)
-5. [Algoritmi și Utilitare pentru Colecții](#algoritmi-și-utilitare-pentru-colecții)
-6. [Operații Comune](#operații-comune)
-7. [Colecții Thread-Safe](#colecții-thread-safe)
-8. [Colecții în Java 8+](#colecții-în-java-8)
-9. [Bune Practici](#bune-practici)
-10. [Exemplu Complet](#exemplu-complet)
-11. [Exerciții Practice](#exerciții-practice)
-
 ## Introducere în Colecții
 
 Colecțiile reprezintă unul dintre cele mai importante concepte în programarea Java, oferind structuri de date flexibile pentru stocarea și manipularea grupurilor de obiecte. Framework-ul Java Collections a fost introdus în Java 1.2 și a evoluat constant, devenind o componentă esențială a limbajului.

@@ -1,29 +1,5 @@
 # Structuri Repetitive și Condiționale
 
-## Cuprins
-1. Introducere
-2. Structuri Condiționale
-    - if
-    - if-else
-    - if-else if-else
-    - switch
-    - Operatorul ternar
-3. Structuri Repetitive
-    - while
-    - do-while
-    - for
-    - for-each (enhanced for)
-4. Instrucțiuni de control al buclelor
-    - break
-    - continue
-    - return
-5. Structuri imbricate
-6. Bune practici
-7. Exemple complexe
-8. Exerciții practice
-
----
-
 ## 1. Introducere
 
 Structurile de control permit programatorilor să controleze fluxul de execuție al programului. Există două categorii principale:

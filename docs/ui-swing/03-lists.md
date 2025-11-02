@@ -1,27 +1,5 @@
 # Documentație Java Swing: JList, JComboBox și JRadioButton
 
-## Cuprins
-1. [Introducere](#introducere)
-2. [JList](#jlist)
-   - [Crearea unui JList](#crearea-unui-jlist)
-   - [Adăugarea elementelor](#adăugarea-elementelor)
-   - [Gestionarea selecțiilor](#gestionarea-selecțiilor)
-   - [Ascultători de evenimente](#ascultători-de-evenimente-jlist)
-   - [Exemplu complet](#exemplu-complet-jlist)
-3. [JComboBox](#jcombobox)
-   - [Crearea unui JComboBox](#crearea-unui-jcombobox)
-   - [Adăugarea și eliminarea elementelor](#adăugarea-și-eliminarea-elementelor)
-   - [Gestionarea selecțiilor](#gestionarea-selecțiilor-combobox)
-   - [Ascultători de evenimente](#ascultători-de-evenimente-combobox)
-   - [Exemplu complet](#exemplu-complet-combobox)
-4. [JRadioButton](#jradiobutton)
-   - [Crearea unui JRadioButton](#crearea-unui-jradiobutton)
-   - [Gruparea butoanelor radio](#gruparea-butoanelor-radio)
-   - [Gestionarea selecțiilor](#gestionarea-selecțiilor-radiobutton)
-   - [Ascultători de evenimente](#ascultători-de-evenimente-radiobutton)
-   - [Exemplu complet](#exemplu-complet-radiobutton)
-5. [Utilizarea componentelor împreună](#utilizarea-componentelor-împreună)
-
 ## Introducere
 
 Java Swing oferă mai multe componente pentru afișarea și selectarea opțiunilor. În această documentație, vom explora trei dintre cele mai utilizate:

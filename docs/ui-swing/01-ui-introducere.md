@@ -1,22 +1,5 @@
 # Documentație: Interfețe Grafice în Java
 
-## Cuprins
-1. [Introducere în Interfețele Grafice](#introducere-în-interfețele-grafice)
-2. [Alegerea Tehnologiei pentru Interfețe Grafice](#alegerea-tehnologiei-pentru-interfețe-grafice)
-3. [Tehnologii pentru Interfețe Grafice în Java](#tehnologii-pentru-interfețe-grafice-în-java)
-    - [AWT (Abstract Window Toolkit)](#awt-abstract-window-toolkit)
-    - [Swing](#swing)
-    - [JavaFX](#javafx)
-4. [De ce Swing?](#de-ce-swing)
-5. [Concepte Fundamentale în Swing](#concepte-fundamentale-în-swing)
-    - [Containere și Componente](#containere-și-componente)
-    - [Layout Managers](#layout-managers)
-    - [Gestionarea Evenimentelor](#gestionarea-evenimentelor)
-6. [Mecanismul de Bază al Creării unei Interfețe Grafice în Java](#mecanismul-de-bază-al-creării-unei-interfețe-grafice-în-java)
-7. [Componente Swing de Bază](#componente-swing-de-bază)
-8. [Sfaturi și Bune Practici](#sfaturi-și-bune-practici)
-9. [Resurse Suplimentare](#resurse-suplimentare)
-
 ## Introducere în Interfețele Grafice
 
 Interfețele grafice (GUI - Graphical User Interface) reprezintă modalitatea prin care utilizatorii interacționează vizual cu o aplicație, folosind elemente precum ferestre, butoane, meniuri și alte componente grafice, în loc să folosească o interfață bazată pe linie de comandă. O interfață grafică bine proiectată este esențială pentru experiența utilizatorului, făcând aplicația mai accesibilă și mai ușor de utilizat.

@@ -1,4 +1,4 @@
-# Cuprins
+# Introducere
 
 Aceasta sectiune cuprinde cateva dintre cele mai utilizate sabloane de proiectare de tipul "Creational" (creare de obiecte). Aceste sabloane sunt esentiale pentru a intelege cum sa gestionam instantierea si ciclul de viata al obiectelor in aplicatiile noastre.
 

@@ -1,25 +1,5 @@
 # Documentație: Optional în Java - O soluție pentru problema valorilor null
 
-## Cuprins
-1. [Introducere](#introducere)
-2. [Problema cu Valorile Null](#problema-cu-valorile-null)
-3. [Clasa Optional](#clasa-optional)
-    - [Crearea Obiectelor Optional](#crearea-obiectelor-optional)
-    - [Verificarea Prezenței Valorii](#verificarea-prezenței-valorii)
-    - [Accesarea Valorii](#accesarea-valorii)
-    - [Valori Implicite](#valori-implicite)
-    - [Transformarea Valorilor](#transformarea-valorilor)
-    - [Filtrarea Valorilor](#filtrarea-valorilor)
-    - [Compunerea Optional-urilor](#compunerea-optional-urilor)
-4. [Optional cu Tipuri Primitive](#optional-cu-tipuri-primitive)
-5. [Optional în Comparație cu Alte Abordări](#optional-în-comparație-cu-alte-abordări)
-6. [Bune Practici](#bune-practici)
-7. [Anti-Pattern-uri](#anti-pattern-uri)
-8. [Utilizări Practice](#utilizări-practice)
-9. [Optional în Colecții](#optional-în-colecții)
-10. [Optional în API-uri](#optional-în-api-uri)
-11. [Testarea Codului cu Optional](#testarea-codului-cu-optional)
-12. [Controverse](#controverse)
 
 ## Introducere
 

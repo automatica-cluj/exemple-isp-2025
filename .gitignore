@@ -23,3 +23,6 @@
 hs_err_pid*
 replay_pid*
 /exemple-curs-10-threads/target/
+
+# MkDocs
+site/

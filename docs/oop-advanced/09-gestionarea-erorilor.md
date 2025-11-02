@@ -1,19 +1,5 @@
 # Gestionarea Erorilor și Excepțiilor
 
-## Cuprins
-1. [Introducere în Gestionarea Erorilor](#introducere-în-gestionarea-erorilor)
-2. [Ierarhia de Excepții în Java](#ierarhia-de-excepții-în-java)
-3. [Tipuri de Excepții](#tipuri-de-excepții)
-4. [Blocurile try-catch-finally](#blocurile-try-catch-finally)
-5. [Lansarea Excepțiilor](#lansarea-excepțiilor)
-6. [Propagarea Excepțiilor](#propagarea-excepțiilor)
-7. [Try-with-Resources](#try-with-resources)
-8. [Excepții Personalizate](#excepții-personalizate)
-9. [Multi-catch și Uniunea de Excepții](#multi-catch-și-uniunea-de-excepții)
-10. [Best Practices](#best-practices)
-11. [Excepțiile și Performanța](#excepțiile-și-performanța)
-12. [Debugging și Logging](#debugging-și-logging)
-
 ## Introducere în Gestionarea Erorilor
 
 Gestionarea erorilor este o parte esențială a dezvoltării software robuste. În Java, sistemul de gestionare a erorilor se bazează pe mecanismul de excepții, care oferă o modalitate structurată și elegantă de a detecta, propaga și trata situațiile excepționale.

@@ -2,11 +2,6 @@
 
 Aceasta secțiune cuprinde câteva șabloane comportamentale de proiectare care sunt utilizate frecvent în dezvoltarea software-ului. Aceste șabloane se concentrează pe comunicarea eficientă între obiecte și pe alocarea responsabilităților între acestea.
 
-## Cuprins
-- [Șablon de proiectare Observer](#șablon-de-proiectare-observer)
-- [Șablon de proiectare Strategy](#șablon-de-proiectare-strategy)
-- [Șablon de proiectare Command](#șablon-de-proiectare-command)
-
 # Șablon de proiectare Observer
 
 **Nume**: Observer

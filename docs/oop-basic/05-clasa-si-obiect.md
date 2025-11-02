@@ -1,21 +1,5 @@
 # Clasa si Obiect, Concepte de Baza
 
-## Cuprins
-1. [Clasa și Obiect](#clasa-și-obiect)
-2. [Constructori](#constructori)
-3. [Atribute](#atribute)
-4. [Metode](#metode)
-5. [Convenții Java](#convenții-java)
-6. [Cuvinte Cheie](#cuvinte-cheie)
-   - [new](#new)
-   - [null](#null)
-   - [this](#this)
-   - [static](#static)
-   - [final](#final)
-7. [Compararea Obiectelor](#compararea-obiectelor)
-8. [Specificatori de Acces](#specificatori-de-acces)
-9. [Garbage Collector](#garbage-collector)
-
 ## Clasa și Obiect
 
 ### Clasa

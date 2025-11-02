@@ -1,2 +1,0 @@
-# exercitii-si-intrebari
-
