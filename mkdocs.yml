@@ -169,6 +169,9 @@ plugins:
 
 # Extra
 extra:
+  analytics:
+    provider: google
+    propety: G-Z6RHB2RMZM
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/automatica-cluj
@@ -181,5 +184,5 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - analytics.js
+  - javascripts/analytics.js
 
